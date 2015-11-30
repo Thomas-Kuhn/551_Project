@@ -1,0 +1,61 @@
+module circularBuffer1024(clk, rst_n, new_smpl, wrt_smpl, smpl_out, sequencing);
+
+input 	clk, rst_n, wrt_smpl;
+input 	[15:0] new_smpl;
+output  [15:0] smpl_out;
+output 	reg sequencing;
+
+reg [9:0] samples_in, full_counter;
+reg [10:0] system_counter;
+reg [9:0] wrtPointer, rdPointer;
+reg enable_write;
+reg wrt_initiated;
+
+dualPort1024x16 buffer(.clk(clk),.we(enable_write),.waddr(wrtPointer),.raddr(rdPointer),.wdata(new_smpl),.rdata(smpl_out));
+
+
+always @(posedge clk, negedge rst_n) begin
+   if (!rst_n) begin
+      enable_write <= 1'b0;
+      sequencing <= 1'b0;
+      samples_in <= 10'h000;
+      full_counter <= 10'h000;
+      wrtPointer <= 10'h000;
+      rdPointer <= 10'h000;
+   end else if (system_counter == 11'b11111111111) begin
+      if (wrt_smpl) begin 
+         wrt_initiated <= 1'b1;
+         enable_write <= 1'b1;
+         wrtPointer <= wrtPointer + 1'b1;
+         samples_in <= samples_in + 1'b1;
+         if (full_counter < 10'b1111111110)
+            full_counter <= full_counter + 1'b1;
+      end else enable_write <= 1'b0;
+   
+      if (wrt_initiated) begin      
+      
+         if (full_counter > 10'b1111111100 ) begin
+            if ( samples_in > 11'h000) begin
+               rdPointer <= rdPointer + 1'b1;
+               sequencing <= 1'b1;
+               samples_in <= samples_in - 1'b1;
+            end else sequencing <= 1'b0;
+         end
+         if (samples_in == 11'h000) begin
+            full_counter <= 10'h000;
+            wrt_initiated <= 1'b0;
+         end
+      end
+   end
+end
+
+always @(posedge clk, negedge rst_n) begin
+   if (!rst_n) 
+      system_counter <= 11'h000;
+   else 
+      system_counter <= system_counter + 1'b1;
+      
+end
+
+
+endmodule
