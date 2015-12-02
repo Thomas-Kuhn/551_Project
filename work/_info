@@ -8,29 +8,53 @@ z2
 !i10f 100
 cModel Technology
 d/userspace/t/tkuhn/ECE551/modelsim/HW_5
-vADC128S
+vA2D_intf
 Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
-Z1 !s110 1449075802
+Z1 !s110 1449076274
 !i10b 1
-!s100 Qn1:T3Xcn8aISo2[N^?5F0
-Ii6=JH[K[WbCdFCYmFg<3i3
+!s100 L^[ojARbYEL5S>deE9C:M1
+I=OlWR6gQ5VF2fLTEV:lLf0
 Z2 VDg1SIo80bB@j0V0VzS_@n1
-!s105 ADC128S_sv_unit
+!s105 A2D_intf_sv_unit
 S1
 Z3 d/userspace/t/tkuhn/ECE551/551_Project
-w1447000652
-8/userspace/t/tkuhn/ECE551/551_Project/ADC128S.sv
-F/userspace/t/tkuhn/ECE551/551_Project/ADC128S.sv
+w1449076203
+8/userspace/t/tkuhn/ECE551/551_Project/A2D_intf.sv
+F/userspace/t/tkuhn/ECE551/551_Project/A2D_intf.sv
 L0 1
 Z4 OL;L;10.4;61
 r1
 !s85 0
 31
-!s108 1449075802.300866
+!s108 1449076274.514408
+!s107 /userspace/t/tkuhn/ECE551/551_Project/A2D_intf.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/A2D_intf.sv|
+!i113 0
+Z5 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@a2@d_intf
+vADC128S
+R0
+Z6 !s110 1449076273
+!i10b 1
+!s100 Qn1:T3Xcn8aISo2[N^?5F0
+Ii6=JH[K[WbCdFCYmFg<3i3
+R2
+!s105 ADC128S_sv_unit
+S1
+R3
+w1447000652
+8/userspace/t/tkuhn/ECE551/551_Project/ADC128S.sv
+F/userspace/t/tkuhn/ECE551/551_Project/ADC128S.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1449076273.768361
 !s107 /userspace/t/tkuhn/ECE551/551_Project/ADC128S.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/ADC128S.sv|
 !i113 0
-Z5 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
 n@a@d@c128@s
 vcircularBuffer1024
 R1
@@ -39,7 +63,7 @@ R1
 IaLcMaU^>T62dR>0L];<=j3
 R2
 R3
-Z6 w1449075732
+Z7 w1449075732
 8/userspace/t/tkuhn/ECE551/551_Project/circularBuffer1024.v
 F/userspace/t/tkuhn/ECE551/551_Project/circularBuffer1024.v
 L0 1
@@ -47,20 +71,20 @@ R4
 r1
 !s85 0
 31
-!s108 1449075802.961354
+!s108 1449076274.370382
 !s107 /userspace/t/tkuhn/ECE551/551_Project/circularBuffer1024.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/circularBuffer1024.v|
 !i113 0
-Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 ncircular@buffer1024
 vcircularBuffer1536
-Z8 !s110 1449075803
+R1
 !i10b 1
 !s100 J0U]kJBN8zbdSIZB6oBMj2
 I2lPkU^lHeN:P><7?L]FRC3
 R2
 R3
-R6
+R7
 8/userspace/t/tkuhn/ECE551/551_Project/circularBuffer1536.v
 F/userspace/t/tkuhn/ECE551/551_Project/circularBuffer1536.v
 L0 1
@@ -68,14 +92,14 @@ R4
 r1
 !s85 0
 31
-!s108 1449075803.007566
+!s108 1449076274.423046
 !s107 /userspace/t/tkuhn/ECE551/551_Project/circularBuffer1536.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/circularBuffer1536.v|
 !i113 0
-R7
+R8
 ncircular@buffer1536
 vCS4272
-R1
+R6
 !i10b 1
 !s100 C3K];2`S>;laS6con5K8d0
 I6JokQVkDgf]UacP?OWU7D3
@@ -89,14 +113,14 @@ R4
 r1
 !s85 0
 31
-!s108 1449075802.425120
+!s108 1449076273.857527
 !s107 /userspace/t/tkuhn/ECE551/551_Project/CS4272.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/CS4272.v|
 !i113 0
-R7
+R8
 n@c@s4272
 vdualPort1024x16
-R1
+R6
 !i10b 1
 !s100 kYgFML]4CYJ7V15LCTeTS0
 Ici7EF?80XQ^FOAeX7KF<j2
@@ -110,14 +134,14 @@ R4
 r1
 !s85 0
 31
-!s108 1449075802.471696
+!s108 1449076273.913526
 !s107 /userspace/t/tkuhn/ECE551/551_Project/dualPort1024x16.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/dualPort1024x16.v|
 !i113 0
-R7
+R8
 ndual@port1024x16
 vdualPort1536x16
-R1
+R6
 !i10b 1
 !s100 bNYM:I_zX`>fij9`a9IO02
 IoH]Y`2Uozh:Vf`Vn296N_0
@@ -131,11 +155,11 @@ R4
 r1
 !s85 0
 31
-!s108 1449075802.516308
+!s108 1449076273.977676
 !s107 /userspace/t/tkuhn/ECE551/551_Project/dualPort1536x16.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/dualPort1536x16.v|
 !i113 0
-R7
+R8
 ndual@port1536x16
 vEqualizer
 R0
@@ -155,7 +179,7 @@ R4
 r1
 !s85 0
 31
-!s108 1449075802.557284
+!s108 1449076274.022406
 !s107 /userspace/t/tkuhn/ECE551/551_Project/Equalizer.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/Equalizer.sv|
 !i113 0
@@ -179,7 +203,7 @@ R4
 r1
 !s85 0
 31
-!s108 1449075802.611477
+!s108 1449076274.067110
 !s107 /userspace/t/tkuhn/ECE551/551_Project/Equalizer_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/Equalizer_tb.sv|
 !i113 0
@@ -200,11 +224,11 @@ R4
 r1
 !s85 0
 31
-!s108 1449075802.674192
+!s108 1449076274.111768
 !s107 /userspace/t/tkuhn/ECE551/551_Project/ROM_B1.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/ROM_B1.v|
 !i113 0
-R7
+R8
 n@r@o@m_@b1
 vROM_B2
 R1
@@ -221,11 +245,11 @@ R4
 r1
 !s85 0
 31
-!s108 1449075802.726977
+!s108 1449076274.153830
 !s107 /userspace/t/tkuhn/ECE551/551_Project/ROM_B2.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/ROM_B2.v|
 !i113 0
-R7
+R8
 n@r@o@m_@b2
 vROM_B3
 R1
@@ -242,11 +266,11 @@ R4
 r1
 !s85 0
 31
-!s108 1449075802.775885
+!s108 1449076274.195837
 !s107 /userspace/t/tkuhn/ECE551/551_Project/ROM_B3.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/ROM_B3.v|
 !i113 0
-R7
+R8
 n@r@o@m_@b3
 vROM_HP
 R1
@@ -263,11 +287,11 @@ R4
 r1
 !s85 0
 31
-!s108 1449075802.824279
+!s108 1449076274.238976
 !s107 /userspace/t/tkuhn/ECE551/551_Project/ROM_HP.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/ROM_HP.v|
 !i113 0
-R7
+R8
 n@r@o@m_@h@p
 vROM_LP
 R1
@@ -284,15 +308,15 @@ R4
 r1
 !s85 0
 31
-!s108 1449075802.872783
+!s108 1449076274.282846
 !s107 /userspace/t/tkuhn/ECE551/551_Project/ROM_LP.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/ROM_LP.v|
 !i113 0
-R7
+R8
 n@r@o@m_@l@p
 vslide_intf
 R0
-R8
+R1
 !i10b 1
 !s100 ^AgzK<LDW`RAb@7f5:O@U1
 IDWlY@LY7[oQ7;4aCSiYi`0
@@ -300,7 +324,7 @@ R2
 !s105 slide_intf_sv_unit
 S1
 R3
-R6
+R7
 8/userspace/t/tkuhn/ECE551/551_Project/slide_intf.sv
 F/userspace/t/tkuhn/ECE551/551_Project/slide_intf.sv
 L0 1
@@ -308,7 +332,7 @@ R4
 r1
 !s85 0
 31
-!s108 1449075803.047654
+!s108 1449076274.465592
 !s107 /userspace/t/tkuhn/ECE551/551_Project/slide_intf.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/slide_intf.sv|
 !i113 0
@@ -331,7 +355,7 @@ R4
 r1
 !s85 0
 31
-!s108 1449075802.914003
+!s108 1449076274.325351
 !s107 /userspace/t/tkuhn/ECE551/551_Project/SPI_ADC128S.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/SPI_ADC128S.sv|
 !i113 0
