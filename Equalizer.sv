@@ -64,7 +64,14 @@ dig_core_intf(.clk(clk), .rst_n(rst_n), .lft_in(lft_in), .rht_in(rht_in), .lft_o
 ////////////////////////////////////////////////////////////
 // Instantiate LED effect driver (optional extra credit) //
 //////////////////////////////////////////////////////////
-	  
+assign LED  = (volume < 64) ? 8'h00 :
+	      (volume <=1024) ? 8'h01:
+	      (volume <= 2048) ? 8'h03:
+	      (volume <= 3072) ? 8'h07:
+	      (volume <= 4096) ? 8'h0f:
+	      (volume <= 5120) ? 8'h1f:
+	      (volume <= 6144) ? 8'h3f:
+	      (volume <= 7168) ? 8'h7f: 8'hff;
 ///////////////////////////////////////////////
 // Implement logic for delaying Amp on till //
 // after queues are steady.   (AMP_ON)     //

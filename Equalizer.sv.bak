@@ -56,6 +56,9 @@ codec_intf iCS(.clk(clk), .rst_n(rst_n), .lft_in(lft_in), .rht_in(rht_in), .lft_
 ///////////////////////////////////
 // Instantiate Equalizer Engine //
 /////////////////////////////////
+dig_core_intf(.clk(clk), .rst_n(rst_n), .lft_in(lft_in), .rht_in(rht_in), .lft_out(lft_out), .rht_out(rht_out), 
+		.valid(valid), .POT_B1(B1_gain),.POT_B2(B2_gain), .POT_B3(B3_gain), .POT_HP(HP_gain), .POT_LP(LP_gain),
+		 .POT_VOL(volume), .AMP_ON(AMP_ON));
 
 
 ////////////////////////////////////////////////////////////
