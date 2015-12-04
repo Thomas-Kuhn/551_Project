@@ -7,36 +7,411 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-d/userspace/t/tkuhn/ECE551/modelsim/HW_5
-vA2D_intf
+Z0 d/userspace/t/tkuhn/ECE551/modelsim/HW_5
 <<<<<<< HEAD
-Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
-Z1 !s110 1449077975
+!s108 1449077976.236216
+Z1 !s107 /userspace/m/mbeard/GitHub/551_Project/SPI_ADC128S.sv|
+Z2 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/m/mbeard/GitHub/551_Project/SPI_ADC128S.sv|
+Z3 =======
+!s108 1449076754.304000
+!s107 I:/GitHub/551_Project/SPI_ADC128S.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/GitHub/551_Project/SPI_ADC128S.sv|
+R0
+<<<<<<< HEAD
+Z4 w1448905624
+Z5 8/userspace/m/mbeard/GitHub/551_Project/SPI_ADC128S.sv
+Z6 F/userspace/m/mbeard/GitHub/551_Project/SPI_ADC128S.sv
+R3
+Z7 w1448905577
+8I:/GitHub/551_Project/SPI_ADC128S.sv
+FI:/GitHub/551_Project/SPI_ADC128S.sv
+R0
+<<<<<<< HEAD
+Z8 !s110 1449077976
 !i10b 1
-!s100 L^[ojARbYEL5S>deE9C:M1
-IW:8_iNN4DcTI;4jPboQ3o0
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-!s105 A2D_intf_sv_unit
+Z9 !s100 ;E62=i88@ghW83DU@9;CK1
+Z10 IkPchBP0=[egh?B4lFFd250
+R3
+!s110 1449076754
+!i10b 1
+!s100 FMj[4W2=9oUfTJcKEmN2N0
+I@Hg52cLebS0E4HPG5_1S51
+R0
+<<<<<<< HEAD
+!s108 1449077976.190517
+Z11 !s107 /userspace/m/mbeard/GitHub/551_Project/slide_intf.sv|
+Z12 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/m/mbeard/GitHub/551_Project/slide_intf.sv|
+R3
+!s108 1449076759.106000
+!s107 I:/GitHub/551_Project/slide_intf.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/GitHub/551_Project/slide_intf.sv|
+R0
+<<<<<<< HEAD
+Z13 w1447995322
+Z14 8/userspace/m/mbeard/GitHub/551_Project/slide_intf.sv
+Z15 F/userspace/m/mbeard/GitHub/551_Project/slide_intf.sv
+L0 1
+R3
+R0
+<<<<<<< HEAD
+R8
+!i10b 1
+Z16 !s100 ^AgzK<LDW`RAb@7f5:O@U1
+Z17 I_ZbT1iTKmR<T]oSI?8gzc2
+R3
+!s110 1449076759
+!i10b 1
+!s100 PBzUW??YQZklcSHI4kP`a1
+IEOl6c^RzoE`YblSjVU3Q=2
+R0
+<<<<<<< HEAD
+!s108 1449077976.146555
+Z18 !s107 /userspace/m/mbeard/GitHub/551_Project/ROM_LP.v|
+Z19 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/ROM_LP.v|
+R3
+!s108 1449076758.858000
+!s107 I:/GitHub/551_Project/ROM_LP.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/GitHub/551_Project/ROM_LP.v|
+R0
+<<<<<<< HEAD
+R8
+!i10b 1
+Z20 !s100 UPX2H1?LRoN05]00V8<^g0
+Z21 IXZKWCoK=LF?59l2d8oEEi2
+Z22 V`JN@9S9cnhjKRR_L]QIcM3
+Z23 dI:/GitHub/551_Project
+R4
+Z24 8/userspace/m/mbeard/GitHub/551_Project/ROM_LP.v
+Z25 F/userspace/m/mbeard/GitHub/551_Project/ROM_LP.v
+R3
+Z26 !s110 1449076758
+!i10b 1
+R20
+Ik;g04hSh@^h3RX76ZT6NE2
+R22
+R23
+R7
+8I:/GitHub/551_Project/ROM_LP.v
+FI:/GitHub/551_Project/ROM_LP.v
+<<<<<<< HEAD
+!s108 1449077976.103118
+Z27 !s107 /userspace/m/mbeard/GitHub/551_Project/ROM_HP.v|
+Z28 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/ROM_HP.v|
+R3
+!s108 1449076758.506000
+!s107 I:/GitHub/551_Project/ROM_HP.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/GitHub/551_Project/ROM_HP.v|
+R0
+<<<<<<< HEAD
+R8
+!i10b 1
+Z29 !s100 XG7O0ofO[Az;oITQ@V1>k2
+Z30 IdG3@Hi`YbZR9TLXIlNb^`1
+R22
+R23
+R4
+Z31 8/userspace/m/mbeard/GitHub/551_Project/ROM_HP.v
+Z32 F/userspace/m/mbeard/GitHub/551_Project/ROM_HP.v
+R3
+R26
+!i10b 1
+R29
+I>]42na:[Q:7ZnNhc4LDif0
+R22
+R23
+R7
+8I:/GitHub/551_Project/ROM_HP.v
+FI:/GitHub/551_Project/ROM_HP.v
+<<<<<<< HEAD
+!s108 1449077976.059970
+Z33 !s107 /userspace/m/mbeard/GitHub/551_Project/ROM_B3.v|
+Z34 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/ROM_B3.v|
+R3
+!s108 1449076758.258000
+!s107 I:/GitHub/551_Project/ROM_B3.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/GitHub/551_Project/ROM_B3.v|
+R0
+<<<<<<< HEAD
+R8
+!i10b 1
+Z35 !s100 CIF_6E>Lk0nEFeB6V8B730
+Z36 I1l`SiZ[Aa>nlNDF>AdLmZ2
+R22
+R23
+Z37 w1448905623
+Z38 8/userspace/m/mbeard/GitHub/551_Project/ROM_B3.v
+Z39 F/userspace/m/mbeard/GitHub/551_Project/ROM_B3.v
+R3
+R26
+!i10b 1
+R35
+I1VkK?[X3JY?DP:1Y19R7F3
+R22
+R23
+R7
+8I:/GitHub/551_Project/ROM_B3.v
+FI:/GitHub/551_Project/ROM_B3.v
+<<<<<<< HEAD
+!s108 1449077976.011842
+Z40 !s107 /userspace/m/mbeard/GitHub/551_Project/ROM_B2.v|
+Z41 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/ROM_B2.v|
+R3
+!s108 1449076758.025000
+!s107 I:/GitHub/551_Project/ROM_B2.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/GitHub/551_Project/ROM_B2.v|
+R0
+<<<<<<< HEAD
+R8
+!i10b 1
+Z42 !s100 49AVDUoT1i0bibAz<<>Je3
+Z43 IFla_UZ[I:5;WX_KM`APNW2
+R22
+R23
+R37
+Z44 8/userspace/m/mbeard/GitHub/551_Project/ROM_B2.v
+Z45 F/userspace/m/mbeard/GitHub/551_Project/ROM_B2.v
+R3
+R26
+!i10b 1
+R42
+I^[G`Y`U=zinfeEEfLID4Y0
+R22
+R23
+R7
+8I:/GitHub/551_Project/ROM_B2.v
+FI:/GitHub/551_Project/ROM_B2.v
+<<<<<<< HEAD
+!s108 1449077975.965637
+Z46 !s107 /userspace/m/mbeard/GitHub/551_Project/ROM_B1.v|
+Z47 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/ROM_B1.v|
+R3
+!s108 1449076757.785000
+!s107 I:/GitHub/551_Project/ROM_B1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/GitHub/551_Project/ROM_B1.v|
+R0
+<<<<<<< HEAD
+Z48 IEOb@[DJKUQE>loj1SiQ=D0
+R22
+R23
+R37
+Z49 8/userspace/m/mbeard/GitHub/551_Project/ROM_B1.v
+Z50 F/userspace/m/mbeard/GitHub/551_Project/ROM_B1.v
+R3
+Ikk`;88@Y0><]h4leFU>`i2
+R22
+R23
+R7
+8I:/GitHub/551_Project/ROM_B1.v
+FI:/GitHub/551_Project/ROM_B1.v
+<<<<<<< HEAD
+!s108 1449077975.919503
+Z51 !s107 /userspace/m/mbeard/GitHub/551_Project/Equalizer_tb.sv|
+Z52 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/m/mbeard/GitHub/551_Project/Equalizer_tb.sv|
+R3
+!s108 1449076757.528000
+!s107 I:/GitHub/551_Project/Equalizer_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/GitHub/551_Project/Equalizer_tb.sv|
+R0
+<<<<<<< HEAD
+R37
+Z53 8/userspace/m/mbeard/GitHub/551_Project/Equalizer_tb.sv
+Z54 F/userspace/m/mbeard/GitHub/551_Project/Equalizer_tb.sv
+R3
+R7
+8I:/GitHub/551_Project/Equalizer_tb.sv
+FI:/GitHub/551_Project/Equalizer_tb.sv
+R0
+<<<<<<< HEAD
+Z55 !s100 F[K2SjU4Y3oHf68ze<A1O0
+Z56 ILiHm8Iz5N99JPPBoZOQN10
+R3
+!s100 ?@Jk6[EHnMKm36l1znNWk0
+Ie7oOSQAaX^O<A`f=0DC;11
+R0
+<<<<<<< HEAD
+!s108 1449077975.874200
+Z57 !s107 /userspace/m/mbeard/GitHub/551_Project/Equalizer.sv|
+Z58 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/m/mbeard/GitHub/551_Project/Equalizer.sv|
+R3
+!s108 1449076757.243000
+!s107 I:/GitHub/551_Project/Equalizer.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/GitHub/551_Project/Equalizer.sv|
+R0
+<<<<<<< HEAD
+Z59 w1449077183
+Z60 8/userspace/m/mbeard/GitHub/551_Project/Equalizer.sv
+Z61 F/userspace/m/mbeard/GitHub/551_Project/Equalizer.sv
+R3
+R7
+8I:/GitHub/551_Project/Equalizer.sv
+FI:/GitHub/551_Project/Equalizer.sv
+R0
+<<<<<<< HEAD
+Z62 IWkfo8a>8LNzlb1[J<0_?h1
+R3
+I4@h_BSETPAhWHjZRi^9Nc2
+R0
+<<<<<<< HEAD
+!s108 1449077975.828934
+Z63 !s107 /userspace/m/mbeard/GitHub/551_Project/dualPort1536x16.v|
+Z64 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/dualPort1536x16.v|
+R3
+!s108 1449076756.999000
+!s107 I:/GitHub/551_Project/dualPort1536x16.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/GitHub/551_Project/dualPort1536x16.v|
+R0
+<<<<<<< HEAD
+Z65 !s100 bNYM:I_zX`>fij9`a9IO02
+Z66 IK;Anjj9cVZ=JI7_2c=<AZ0
+R22
+R23
+R4
+Z67 8/userspace/m/mbeard/GitHub/551_Project/dualPort1536x16.v
+Z68 F/userspace/m/mbeard/GitHub/551_Project/dualPort1536x16.v
+R3
+!s100 H;o^]li4ZFJBeFSJ7f^g=0
+I>k55afOGdPoGdf>kJYhCi2
+R22
+R23
+R7
+8I:/GitHub/551_Project/dualPort1536x16.v
+FI:/GitHub/551_Project/dualPort1536x16.v
+<<<<<<< HEAD
+!s108 1449077975.782522
+Z69 !s107 /userspace/m/mbeard/GitHub/551_Project/dualPort1024x16.v|
+Z70 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/dualPort1024x16.v|
+R3
+!s108 1449076756.749000
+!s107 I:/GitHub/551_Project/dualPort1024x16.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/GitHub/551_Project/dualPort1024x16.v|
+R0
+<<<<<<< HEAD
+Z71 !s100 kYgFML]4CYJ7V15LCTeTS0
+Z72 I1zc_XRNoSL;VMddQN]TeM2
+R22
+R23
+R4
+Z73 8/userspace/m/mbeard/GitHub/551_Project/dualPort1024x16.v
+Z74 F/userspace/m/mbeard/GitHub/551_Project/dualPort1024x16.v
+R3
+!s100 EgkPHJ7mB8aV?YEj8H=Z@2
+IE9doI?G=ZjKjkYK@kFP0T2
+R22
+R23
+R7
+8I:/GitHub/551_Project/dualPort1024x16.v
+FI:/GitHub/551_Project/dualPort1024x16.v
+<<<<<<< HEAD
+!s108 1449077975.737513
+Z75 !s107 /userspace/m/mbeard/GitHub/551_Project/CS4272.v|
+Z76 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/CS4272.v|
+R3
+!s108 1449076756.443000
+!s107 I:/GitHub/551_Project/CS4272.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/GitHub/551_Project/CS4272.v|
+R0
+<<<<<<< HEAD
+Z77 !s100 C3K];2`S>;laS6con5K8d0
+Z78 Iha6O`cT7B;eZN[eX2Z`Mn3
+R22
+R23
+R37
+Z79 8/userspace/m/mbeard/GitHub/551_Project/CS4272.v
+Z80 F/userspace/m/mbeard/GitHub/551_Project/CS4272.v
+R3
+!s100 8]NFB6bc]KdTQD6:Z946`3
+I1Ca4cf8g7Cme1`gadK=5g2
+R22
+R23
+R7
+8I:/GitHub/551_Project/CS4272.v
+FI:/GitHub/551_Project/CS4272.v
+<<<<<<< HEAD
+!s108 1449077975.693177
+Z81 !s107 /userspace/m/mbeard/GitHub/551_Project/circularBuffer1536.v|
+Z82 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/circularBuffer1536.v|
+R3
+!s108 1449076756.175000
+!s107 I:/GitHub/551_Project/circularBuffer1536.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/GitHub/551_Project/circularBuffer1536.v|
+R0
+<<<<<<< HEAD
+Z83 !s110 1449076755
+!i10b 1
+!s100 J0U]kJBN8zbdSIZB6oBMj2
+IWO_hFL<cibf?nZJ:3K<Si3
+R22
+R23
+w1447973551
+Z84 8/userspace/m/mbeard/GitHub/551_Project/circularBuffer1536.v
+Z85 F/userspace/m/mbeard/GitHub/551_Project/circularBuffer1536.v
+L0 1
+R3
+!s110 1449076756
+!i10b 1
+!s100 B`22MhA9QJQJN^=M732C40
+I>f3Dm>JSYL=Y4Vi3h=R163
+R22
+R23
+<<<<<<< HEAD
+!s108 1449077975.648081
+Z86 !s107 /userspace/m/mbeard/GitHub/551_Project/circularBuffer1024.v|
+Z87 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/circularBuffer1024.v|
+R3
+!s108 1449076755.826000
+!s107 I:/GitHub/551_Project/circularBuffer1024.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/GitHub/551_Project/circularBuffer1024.v|
+R0
+<<<<<<< HEAD
+!s100 [H]j^g6]`9zRNalEmm8GG1
+IVVBWTJI_CI`>BeEel5;[m1
+R22
+R23
+w1447958016
+Z88 8/userspace/m/mbeard/GitHub/551_Project/circularBuffer1024.v
+Z89 F/userspace/m/mbeard/GitHub/551_Project/circularBuffer1024.v
+L0 1
+R3
+!s100 HRM0[^_K`MIhO_HcfLSYR3
+I1SB3F01iTBfSdFDY0^XTZ1
+R22
+R23
+<<<<<<< HEAD
+!s108 1449077975.553494
+Z90 !s107 /userspace/m/mbeard/GitHub/551_Project/A2D_intf.sv|
+Z91 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/m/mbeard/GitHub/551_Project/A2D_intf.sv|
+!i113 0
+Z92 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z93 n@a2@d_intf
+R0
+<<<<<<< HEAD
+Z94 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+!s110 1449077975
+!i10b 1
+Z95 !s100 L^[ojARbYEL5S>deE9C:M1
+Z96 IW:8_iNN4DcTI;4jPboQ3o0
+Z97 VDg1SIo80bB@j0V0VzS_@n1
+Z98 !s105 A2D_intf_sv_unit
 S1
-Z3 d/userspace/m/mbeard/GitHub/551_Project
-w1446484758
-8/userspace/m/mbeard/GitHub/551_Project/A2D_intf.sv
-F/userspace/m/mbeard/GitHub/551_Project/A2D_intf.sv
-=======
-Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
-Z1 !s110 1449076755
+Z99 d/userspace/m/mbeard/GitHub/551_Project
+Z100 w1446484758
+Z101 8/userspace/m/mbeard/GitHub/551_Project/A2D_intf.sv
+Z102 F/userspace/m/mbeard/GitHub/551_Project/A2D_intf.sv
+R3
+Z103 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+R83
 !i10b 1
 !s100 gUlK?ZdROTQdgI>?9P`mg0
 IE;8gQe>d@?M2BCEciG3IY2
-Z2 V`JN@9S9cnhjKRR_L]QIcM3
-!s105 A2D_intf_sv_unit
+R22
+R98
 S1
-Z3 dI:/GitHub/551_Project
-Z4 w1449076597
+R23
+Z104 w1449076597
 8I:/GitHub/551_Project/A2D_intf.sv
 FI:/GitHub/551_Project/A2D_intf.sv
 L0 1
-Z5 OE;L;10.3c;59
+Z105 OE;L;10.3c;59
 r1
 !s85 0
 31
@@ -44,633 +419,621 @@ r1
 !s107 I:/GitHub/551_Project/A2D_intf.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/GitHub/551_Project/A2D_intf.sv|
 !i113 0
-Z6 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-n@a2@d_intf
-vADC128S
+R92
+R93
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!i113 0
+R37
+n@s@p@i_@a@d@c128@s
 R0
-R1
-!i10b 1
-!s100 ZBWWXFI^AinRHzkjdeXRG2
-IkS6X31WD]PEdbO^bja=2W0
-R2
-!s105 ADC128S_sv_unit
-S1
-R3
-Z7 w1448905577
-8I:/GitHub/551_Project/ADC128S.sv
-FI:/GitHub/551_Project/ADC128S.sv
 >>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
 L0 1
-R5
+R92
 r1
 !s85 0
 31
-<<<<<<< HEAD
-!s108 1449077975.553494
-!s107 /userspace/m/mbeard/GitHub/551_Project/A2D_intf.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/m/mbeard/GitHub/551_Project/A2D_intf.sv|
-!i113 0
-Z5 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-n@a2@d_intf
-vADC128S
 R0
-R1
-!i10b 1
-!s100 Qn1:T3Xcn8aISo2[N^?5F0
-Ig;A4ah@W`f2?S`HPgEc8b3
-R2
-!s105 ADC128S_sv_unit
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+R22
+Z106 !s105 SPI_ADC128S_sv_unit
 S1
-R3
-Z6 w1448905623
-8/userspace/m/mbeard/GitHub/551_Project/ADC128S.sv
-F/userspace/m/mbeard/GitHub/551_Project/ADC128S.sv
+R23
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!i113 0
+R37
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+R104
+8I:/GitHub/551_Project/slide_intf.sv
+FI:/GitHub/551_Project/slide_intf.sv
 L0 1
+R92
+r1
+!s85 0
+31
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+R22
+Z107 !s105 slide_intf_sv_unit
+S1
+R23
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!i113 0
 R4
+n@r@o@m_@l@p
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+L0 1
+R92
+r1
+!s85 0
+31
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!i113 0
+R4
+n@r@o@m_@h@p
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+L0 1
+R92
+r1
+!s85 0
+31
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!i113 0
+R4
+n@r@o@m_@b3
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+L0 1
+R92
+r1
+!s85 0
+31
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!i113 0
+R4
+n@r@o@m_@b2
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+L0 1
+R92
+r1
+!s85 0
+31
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!i113 0
+R4
+n@r@o@m_@b1
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+L0 1
+R92
+r1
+!s85 0
+31
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!i113 0
+R37
+n@equalizer_tb
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+L0 1
+R92
+r1
+!s85 0
+31
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+R22
+Z108 !s105 Equalizer_tb_sv_unit
+S1
+R23
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!i113 0
+R37
+n@equalizer
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+L0 5
+R92
+r1
+!s85 0
+31
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+R22
+Z109 !s105 Equalizer_sv_unit
+S1
+R23
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!i113 0
+R4
+ndual@port1536x16
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+L0 1
+R92
+r1
+!s85 0
+31
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!i113 0
+R4
+ndual@port1024x16
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+L0 1
+R92
+r1
+!s85 0
+31
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!i113 0
+Z110 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@c@s4272
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+Z111 L0 11
+R92
+r1
+!s85 0
+31
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!i113 0
+R110
+ncircular@buffer1536
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+R104
+8I:/GitHub/551_Project/circularBuffer1536.v
+FI:/GitHub/551_Project/circularBuffer1536.v
+L0 1
+R92
+r1
+!s85 0
+31
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!i113 0
+R110
+ncircular@buffer1024
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+R104
+8I:/GitHub/551_Project/circularBuffer1024.v
+FI:/GitHub/551_Project/circularBuffer1024.v
+L0 1
+R92
+r1
+!s85 0
+31
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+n@a@d@c128@s
+R0
+>>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+L0 1
+R105
+r1
+!s85 0
+31
+R0
+vA2D_intf
+R94
+Z112 !s110 1449247828
+!i10b 1
+R95
+R96
+R97
+R98
+S1
+R99
+R100
+R101
+R102
+L0 1
+Z113 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1449247828.120530
+R90
+R91
+!i113 0
+R92
+vADC128S
+R103
+R83
+!i10b 1
+Z114 !s100 Qn1:T3Xcn8aISo2[N^?5F0
+Z115 Ig;A4ah@W`f2?S`HPgEc8b3
+R22
+Z116 !s105 ADC128S_sv_unit
+S1
+R23
+R37
+Z117 8/userspace/m/mbeard/GitHub/551_Project/ADC128S.sv
+Z118 F/userspace/m/mbeard/GitHub/551_Project/ADC128S.sv
+L0 1
+R104
 r1
 !s85 0
 31
 !s108 1449077975.602208
-!s107 /userspace/m/mbeard/GitHub/551_Project/ADC128S.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/m/mbeard/GitHub/551_Project/ADC128S.sv|
+Z119 !s107 /userspace/m/mbeard/GitHub/551_Project/ADC128S.sv|
+Z120 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/m/mbeard/GitHub/551_Project/ADC128S.sv|
 !i113 0
-R5
-=======
+R92
+R3
 !s108 1449076755.562000
 !s107 I:/GitHub/551_Project/ADC128S.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/GitHub/551_Project/ADC128S.sv|
 !i113 0
-R6
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
-n@a@d@c128@s
+R37
+vADC128S
+R94
+R112
+!i10b 1
+R114
+R115
+R97
+R116
+S1
+R99
+R37
+R117
+R118
+L0 1
+R113
+r1
+!s85 0
+31
+!s108 1449247828.277756
+R119
+R120
+!i113 0
+R92
+vband_scale
+!s110 1449251861
+!i10b 1
+!s100 eXBj@[6QJ_M1?XLaA7V2d2
+IHceHC=9Yz32M652zCY]cY0
+R97
+R99
+w1449078754
+8/userspace/m/mbeard/GitHub/551_Project/band_scale.v
+F/userspace/m/mbeard/GitHub/551_Project/band_scale.v
+L0 1
+R113
+r1
+!s85 0
+31
+!s108 1449251861.018911
+!s107 /userspace/m/mbeard/GitHub/551_Project/band_scale.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/band_scale.v|
+!i113 0
+R110
 vcircularBuffer1024
-R1
+!s110 1449252656
 !i10b 1
-<<<<<<< HEAD
-!s100 [H]j^g6]`9zRNalEmm8GG1
-IVVBWTJI_CI`>BeEel5;[m1
-R2
-R3
-w1447958016
-8/userspace/m/mbeard/GitHub/551_Project/circularBuffer1024.v
-F/userspace/m/mbeard/GitHub/551_Project/circularBuffer1024.v
+!s100 ShW61icAeX3R]aA=UB4b@2
+Id]=?<G2UMdfcefb>gJ?5Y0
+R97
+R99
+w1449252653
+R88
+R89
 L0 1
-=======
-!s100 HRM0[^_K`MIhO_HcfLSYR3
-I1SB3F01iTBfSdFDY0^XTZ1
-R2
-R3
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
-R4
-8I:/GitHub/551_Project/circularBuffer1024.v
-FI:/GitHub/551_Project/circularBuffer1024.v
-L0 1
-R5
+R113
 r1
 !s85 0
 31
-<<<<<<< HEAD
-!s108 1449077975.648081
-!s107 /userspace/m/mbeard/GitHub/551_Project/circularBuffer1024.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/circularBuffer1024.v|
-=======
-!s108 1449076755.826000
-!s107 I:/GitHub/551_Project/circularBuffer1024.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/GitHub/551_Project/circularBuffer1024.v|
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!s108 1449252656.387263
+R86
+R87
 !i113 0
-Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-ncircular@buffer1024
+R110
 vcircularBuffer1536
-<<<<<<< HEAD
-R1
+!s110 1449252679
 !i10b 1
-!s100 J0U]kJBN8zbdSIZB6oBMj2
-IWO_hFL<cibf?nZJ:3K<Si3
-R2
-R3
-w1447973551
-8/userspace/m/mbeard/GitHub/551_Project/circularBuffer1536.v
-F/userspace/m/mbeard/GitHub/551_Project/circularBuffer1536.v
+!s100 F4dMSWV`Fd8Vf75cK=OhY1
+INZ2AVBf;fCLLOaS7SmKi>3
+R97
+R99
+w1449252673
+R84
+R85
 L0 1
-=======
-Z9 !s110 1449076756
-!i10b 1
-!s100 B`22MhA9QJQJN^=M732C40
-I>f3Dm>JSYL=Y4Vi3h=R163
-R2
-R3
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
-R4
-8I:/GitHub/551_Project/circularBuffer1536.v
-FI:/GitHub/551_Project/circularBuffer1536.v
-L0 1
-R5
+R113
 r1
 !s85 0
 31
-<<<<<<< HEAD
-!s108 1449077975.693177
-!s107 /userspace/m/mbeard/GitHub/551_Project/circularBuffer1536.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/circularBuffer1536.v|
-=======
-!s108 1449076756.175000
-!s107 I:/GitHub/551_Project/circularBuffer1536.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/GitHub/551_Project/circularBuffer1536.v|
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!s108 1449252679.494262
+R81
+R82
 !i113 0
-R8
-ncircular@buffer1536
+R110
 vCS4272
-R9
+R112
 !i10b 1
-<<<<<<< HEAD
-!s100 C3K];2`S>;laS6con5K8d0
-Iha6O`cT7B;eZN[eX2Z`Mn3
-R2
-R3
-R6
-8/userspace/m/mbeard/GitHub/551_Project/CS4272.v
-F/userspace/m/mbeard/GitHub/551_Project/CS4272.v
-=======
-!s100 8]NFB6bc]KdTQD6:Z946`3
-I1Ca4cf8g7Cme1`gadK=5g2
-R2
-R3
-R7
-8I:/GitHub/551_Project/CS4272.v
-FI:/GitHub/551_Project/CS4272.v
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
-L0 11
-R5
+R77
+R78
+R97
+R99
+R37
+R79
+R80
+R111
+R113
 r1
 !s85 0
 31
-<<<<<<< HEAD
-!s108 1449077975.737513
-!s107 /userspace/m/mbeard/GitHub/551_Project/CS4272.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/CS4272.v|
-=======
-!s108 1449076756.443000
-!s107 I:/GitHub/551_Project/CS4272.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/GitHub/551_Project/CS4272.v|
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!s108 1449247828.442028
+R75
+R76
 !i113 0
-R8
-n@c@s4272
+R110
 vdig_core_intf
-R0
-!s110 1449078716
+R94
+!s110 1449253415
 !i10b 1
-!s100 N><NQ8z<V]9?zloz<E9FW2
-I24Q9o@93GR[loF=1?9AjT3
-R2
+!s100 Cg[_oXjd5d@B^E9oE;j4j3
+IPa85jzHEj3dObcIeU^jgE1
+R97
 !s105 dig_core_intf_sv_unit
 S1
-R3
-w1449078714
+R99
+w1449253412
 8/userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv
 F/userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv
 L0 1
-R4
+R113
 r1
 !s85 0
 31
-!s108 1449078716.832174
+!s108 1449253415.393670
 !s107 /userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv|
 !i113 0
-R5
+R92
 vdualPort1024x16
-R9
+R112
 !i10b 1
-<<<<<<< HEAD
-!s100 kYgFML]4CYJ7V15LCTeTS0
-I1zc_XRNoSL;VMddQN]TeM2
-R2
-R3
-Z8 w1448905624
-8/userspace/m/mbeard/GitHub/551_Project/dualPort1024x16.v
-F/userspace/m/mbeard/GitHub/551_Project/dualPort1024x16.v
-=======
-!s100 EgkPHJ7mB8aV?YEj8H=Z@2
-IE9doI?G=ZjKjkYK@kFP0T2
-R2
-R3
-R7
-8I:/GitHub/551_Project/dualPort1024x16.v
-FI:/GitHub/551_Project/dualPort1024x16.v
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+R71
+R72
+R97
+R99
+R4
+R73
+R74
 L0 1
-R5
+R113
 r1
 !s85 0
 31
-<<<<<<< HEAD
-!s108 1449077975.782522
-!s107 /userspace/m/mbeard/GitHub/551_Project/dualPort1024x16.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/dualPort1024x16.v|
-=======
-!s108 1449076756.749000
-!s107 I:/GitHub/551_Project/dualPort1024x16.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/GitHub/551_Project/dualPort1024x16.v|
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!s108 1449247828.504824
+R69
+R70
 !i113 0
-R8
-ndual@port1024x16
+R110
 vdualPort1536x16
-Z10 !s110 1449076757
+R112
 !i10b 1
-<<<<<<< HEAD
-!s100 bNYM:I_zX`>fij9`a9IO02
-IK;Anjj9cVZ=JI7_2c=<AZ0
-R2
-R3
-R8
-8/userspace/m/mbeard/GitHub/551_Project/dualPort1536x16.v
-F/userspace/m/mbeard/GitHub/551_Project/dualPort1536x16.v
-=======
-!s100 H;o^]li4ZFJBeFSJ7f^g=0
-I>k55afOGdPoGdf>kJYhCi2
-R2
-R3
-R7
-8I:/GitHub/551_Project/dualPort1536x16.v
-FI:/GitHub/551_Project/dualPort1536x16.v
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+R65
+R66
+R97
+R99
+R4
+R67
+R68
 L0 1
-R5
+R113
 r1
 !s85 0
 31
-<<<<<<< HEAD
-!s108 1449077975.828934
-!s107 /userspace/m/mbeard/GitHub/551_Project/dualPort1536x16.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/dualPort1536x16.v|
-=======
-!s108 1449076756.999000
-!s107 I:/GitHub/551_Project/dualPort1536x16.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/GitHub/551_Project/dualPort1536x16.v|
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!s108 1449247828.554223
+R63
+R64
 !i113 0
-R8
-ndual@port1536x16
+R110
 vEqualizer
-R0
-R10
+R94
+R112
 !i10b 1
 !s100 31o^Og>fmAA;:;n@^W7ok0
-<<<<<<< HEAD
-IWkfo8a>8LNzlb1[J<0_?h1
-=======
-I4@h_BSETPAhWHjZRi^9Nc2
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
-R2
-!s105 Equalizer_sv_unit
+R62
+R97
+R109
 S1
-R3
-<<<<<<< HEAD
-w1449077183
-8/userspace/m/mbeard/GitHub/551_Project/Equalizer.sv
-F/userspace/m/mbeard/GitHub/551_Project/Equalizer.sv
-=======
-R7
-8I:/GitHub/551_Project/Equalizer.sv
-FI:/GitHub/551_Project/Equalizer.sv
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+R99
+R59
+R60
+R61
 L0 5
-R5
+R113
 r1
 !s85 0
 31
-<<<<<<< HEAD
-!s108 1449077975.874200
-!s107 /userspace/m/mbeard/GitHub/551_Project/Equalizer.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/m/mbeard/GitHub/551_Project/Equalizer.sv|
-=======
-!s108 1449076757.243000
-!s107 I:/GitHub/551_Project/Equalizer.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/GitHub/551_Project/Equalizer.sv|
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!s108 1449247828.605560
+R57
+R58
 !i113 0
-R6
-n@equalizer
+R92
 vEqualizer_tb
-R0
-R10
+R94
+R112
 !i10b 1
-<<<<<<< HEAD
-!s100 F[K2SjU4Y3oHf68ze<A1O0
-ILiHm8Iz5N99JPPBoZOQN10
-=======
-!s100 ?@Jk6[EHnMKm36l1znNWk0
-Ie7oOSQAaX^O<A`f=0DC;11
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
-R2
-!s105 Equalizer_tb_sv_unit
+R55
+R56
+R97
+R108
 S1
-R3
-<<<<<<< HEAD
-R6
-8/userspace/m/mbeard/GitHub/551_Project/Equalizer_tb.sv
-F/userspace/m/mbeard/GitHub/551_Project/Equalizer_tb.sv
-=======
-R7
-8I:/GitHub/551_Project/Equalizer_tb.sv
-FI:/GitHub/551_Project/Equalizer_tb.sv
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+R99
+R37
+R53
+R54
 L0 1
-R5
+R113
 r1
 !s85 0
 31
-<<<<<<< HEAD
-!s108 1449077975.919503
-!s107 /userspace/m/mbeard/GitHub/551_Project/Equalizer_tb.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/m/mbeard/GitHub/551_Project/Equalizer_tb.sv|
-=======
-!s108 1449076757.528000
-!s107 I:/GitHub/551_Project/Equalizer_tb.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/GitHub/551_Project/Equalizer_tb.sv|
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!s108 1449247828.660685
+R51
+R52
 !i113 0
-R6
-n@equalizer_tb
+R92
 vROM_B1
-R10
+R112
 !i10b 1
 !s100 7kWZAPVWeiDHcgJNkM1]R2
-<<<<<<< HEAD
-IEOb@[DJKUQE>loj1SiQ=D0
-R2
-R3
-R6
-8/userspace/m/mbeard/GitHub/551_Project/ROM_B1.v
-F/userspace/m/mbeard/GitHub/551_Project/ROM_B1.v
-=======
-Ikk`;88@Y0><]h4leFU>`i2
-R2
-R3
-R7
-8I:/GitHub/551_Project/ROM_B1.v
-FI:/GitHub/551_Project/ROM_B1.v
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+R48
+R97
+R99
+R37
+R49
+R50
 L0 1
-R5
+R113
 r1
 !s85 0
 31
-<<<<<<< HEAD
-!s108 1449077975.965637
-!s107 /userspace/m/mbeard/GitHub/551_Project/ROM_B1.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/ROM_B1.v|
-=======
-!s108 1449076757.785000
-!s107 I:/GitHub/551_Project/ROM_B1.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/GitHub/551_Project/ROM_B1.v|
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!s108 1449247828.718422
+R46
+R47
 !i113 0
-R8
-n@r@o@m_@b1
+R110
 vROM_B2
-<<<<<<< HEAD
-Z9 !s110 1449077976
+R112
 !i10b 1
-!s100 49AVDUoT1i0bibAz<<>Je3
-IFla_UZ[I:5;WX_KM`APNW2
-R2
-R3
-R6
-8/userspace/m/mbeard/GitHub/551_Project/ROM_B2.v
-F/userspace/m/mbeard/GitHub/551_Project/ROM_B2.v
-=======
-Z11 !s110 1449076758
-!i10b 1
-!s100 49AVDUoT1i0bibAz<<>Je3
-I^[G`Y`U=zinfeEEfLID4Y0
-R2
-R3
-R7
-8I:/GitHub/551_Project/ROM_B2.v
-FI:/GitHub/551_Project/ROM_B2.v
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+R42
+R43
+R97
+R99
+R37
+R44
+R45
 L0 1
-R5
+R113
 r1
 !s85 0
 31
-<<<<<<< HEAD
-!s108 1449077976.011842
-!s107 /userspace/m/mbeard/GitHub/551_Project/ROM_B2.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/ROM_B2.v|
-=======
-!s108 1449076758.025000
-!s107 I:/GitHub/551_Project/ROM_B2.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/GitHub/551_Project/ROM_B2.v|
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!s108 1449247828.767224
+R40
+R41
 !i113 0
-R8
-n@r@o@m_@b2
+R110
 vROM_B3
-<<<<<<< HEAD
-R9
+R112
 !i10b 1
-!s100 CIF_6E>Lk0nEFeB6V8B730
-I1l`SiZ[Aa>nlNDF>AdLmZ2
-R2
-R3
-R6
-8/userspace/m/mbeard/GitHub/551_Project/ROM_B3.v
-F/userspace/m/mbeard/GitHub/551_Project/ROM_B3.v
-=======
-R11
-!i10b 1
-!s100 CIF_6E>Lk0nEFeB6V8B730
-I1VkK?[X3JY?DP:1Y19R7F3
-R2
-R3
-R7
-8I:/GitHub/551_Project/ROM_B3.v
-FI:/GitHub/551_Project/ROM_B3.v
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+R35
+R36
+R97
+R99
+R37
+R38
+R39
 L0 1
-R5
+R113
 r1
 !s85 0
 31
-<<<<<<< HEAD
-!s108 1449077976.059970
-!s107 /userspace/m/mbeard/GitHub/551_Project/ROM_B3.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/ROM_B3.v|
-=======
-!s108 1449076758.258000
-!s107 I:/GitHub/551_Project/ROM_B3.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/GitHub/551_Project/ROM_B3.v|
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!s108 1449247828.824178
+R33
+R34
 !i113 0
-R8
-n@r@o@m_@b3
+R110
 vROM_HP
-<<<<<<< HEAD
-R9
+R112
 !i10b 1
-!s100 XG7O0ofO[Az;oITQ@V1>k2
-IdG3@Hi`YbZR9TLXIlNb^`1
-R2
-R3
-R8
-8/userspace/m/mbeard/GitHub/551_Project/ROM_HP.v
-F/userspace/m/mbeard/GitHub/551_Project/ROM_HP.v
-=======
-R11
-!i10b 1
-!s100 XG7O0ofO[Az;oITQ@V1>k2
-I>]42na:[Q:7ZnNhc4LDif0
-R2
-R3
-R7
-8I:/GitHub/551_Project/ROM_HP.v
-FI:/GitHub/551_Project/ROM_HP.v
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
-L0 1
-R5
-r1
-!s85 0
-31
-<<<<<<< HEAD
-!s108 1449077976.103118
-!s107 /userspace/m/mbeard/GitHub/551_Project/ROM_HP.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/ROM_HP.v|
-=======
-!s108 1449076758.506000
-!s107 I:/GitHub/551_Project/ROM_HP.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/GitHub/551_Project/ROM_HP.v|
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
-!i113 0
-R8
-n@r@o@m_@h@p
-vROM_LP
-<<<<<<< HEAD
-R9
-!i10b 1
-!s100 UPX2H1?LRoN05]00V8<^g0
-IXZKWCoK=LF?59l2d8oEEi2
-R2
-R3
-R8
-8/userspace/m/mbeard/GitHub/551_Project/ROM_LP.v
-F/userspace/m/mbeard/GitHub/551_Project/ROM_LP.v
-=======
-R11
-!i10b 1
-!s100 UPX2H1?LRoN05]00V8<^g0
-Ik;g04hSh@^h3RX76ZT6NE2
-R2
-R3
-R7
-8I:/GitHub/551_Project/ROM_LP.v
-FI:/GitHub/551_Project/ROM_LP.v
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
-L0 1
-R5
-r1
-!s85 0
-31
-<<<<<<< HEAD
-!s108 1449077976.146555
-!s107 /userspace/m/mbeard/GitHub/551_Project/ROM_LP.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/ROM_LP.v|
-=======
-!s108 1449076758.858000
-!s107 I:/GitHub/551_Project/ROM_LP.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/GitHub/551_Project/ROM_LP.v|
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
-!i113 0
-R8
-n@r@o@m_@l@p
-vslide_intf
-R0
-<<<<<<< HEAD
-R9
-!i10b 1
-!s100 ^AgzK<LDW`RAb@7f5:O@U1
-I_ZbT1iTKmR<T]oSI?8gzc2
-=======
-!s110 1449076759
-!i10b 1
-!s100 PBzUW??YQZklcSHI4kP`a1
-IEOl6c^RzoE`YblSjVU3Q=2
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
-R2
-!s105 slide_intf_sv_unit
-S1
-R3
-<<<<<<< HEAD
-w1447995322
-8/userspace/m/mbeard/GitHub/551_Project/slide_intf.sv
-F/userspace/m/mbeard/GitHub/551_Project/slide_intf.sv
-L0 1
-=======
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+R29
+R30
+R97
+R99
 R4
-8I:/GitHub/551_Project/slide_intf.sv
-FI:/GitHub/551_Project/slide_intf.sv
+R31
+R32
 L0 1
-R5
+R113
 r1
 !s85 0
 31
-<<<<<<< HEAD
-!s108 1449077976.190517
-!s107 /userspace/m/mbeard/GitHub/551_Project/slide_intf.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/m/mbeard/GitHub/551_Project/slide_intf.sv|
-=======
-!s108 1449076759.106000
-!s107 I:/GitHub/551_Project/slide_intf.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/GitHub/551_Project/slide_intf.sv|
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!s108 1449247828.873165
+R27
+R28
 !i113 0
-R6
-vSPI_ADC128S
-R0
-<<<<<<< HEAD
-R9
+R110
+vROM_LP
+R112
 !i10b 1
-!s100 ;E62=i88@ghW83DU@9;CK1
-IkPchBP0=[egh?B4lFFd250
-=======
-!s110 1449076754
+R20
+R21
+R97
+R99
+R4
+R24
+R25
+L0 1
+R113
+r1
+!s85 0
+31
+!s108 1449247828.923262
+R18
+R19
+!i113 0
+R110
+vslide_intf
+R94
+Z121 !s110 1449247829
 !i10b 1
-!s100 FMj[4W2=9oUfTJcKEmN2N0
-I@Hg52cLebS0E4HPG5_1S51
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
-R2
-!s105 SPI_ADC128S_sv_unit
+R16
+R17
+R97
+R107
 S1
-R3
-<<<<<<< HEAD
-R8
-8/userspace/m/mbeard/GitHub/551_Project/SPI_ADC128S.sv
-F/userspace/m/mbeard/GitHub/551_Project/SPI_ADC128S.sv
-=======
-R7
-8I:/GitHub/551_Project/SPI_ADC128S.sv
-FI:/GitHub/551_Project/SPI_ADC128S.sv
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+R99
+R13
+R14
+R15
 L0 1
-R5
+R113
 r1
 !s85 0
 31
-<<<<<<< HEAD
-!s108 1449077976.236216
-!s107 /userspace/m/mbeard/GitHub/551_Project/SPI_ADC128S.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/m/mbeard/GitHub/551_Project/SPI_ADC128S.sv|
-=======
-!s108 1449076754.304000
-!s107 I:/GitHub/551_Project/SPI_ADC128S.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/GitHub/551_Project/SPI_ADC128S.sv|
->>>>>>> de1e118f978f8bc81b84c58ffc56b5dbaab6c0de
+!s108 1449247828.983756
+R11
+R12
 !i113 0
+R92
+vSPI_ADC128S
+R94
+R121
+!i10b 1
+R9
+R10
+R97
+R106
+S1
+R99
+R4
+R5
 R6
-n@s@p@i_@a@d@c128@s
+L0 1
+R113
+r1
+!s85 0
+31
+!s108 1449247829.059338
+R1
+R2
+!i113 0
+R92

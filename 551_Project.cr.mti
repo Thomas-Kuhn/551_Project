@@ -1,4 +1,11 @@
-/userspace/m/mbeard/GitHub/551_Project/slide_intf.sv {1 {vlog -work work -vopt -sv -stats=none /userspace/m/mbeard/GitHub/551_Project/slide_intf.sv
+/userspace/m/mbeard/GitHub/551_Project/band_scale.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/band_scale.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
+-- Compiling module band_scale
+
+Top level modules:
+	band_scale
+
+} {} {}} /userspace/m/mbeard/GitHub/551_Project/slide_intf.sv {1 {vlog -work work -vopt -sv -stats=none /userspace/m/mbeard/GitHub/551_Project/slide_intf.sv
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 -- Compiling module slide_intf
 
@@ -19,19 +26,19 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 Top level modules:
 	ROM_HP
 
-} {} {}} /userspace/m/mbeard/GitHub/551_Project/circularBuffer1024.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/circularBuffer1024.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
--- Compiling module circularBuffer1024
-
-Top level modules:
-	circularBuffer1024
-
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/circularBuffer1536.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/circularBuffer1536.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 -- Compiling module circularBuffer1536
 
 Top level modules:
 	circularBuffer1536
+
+} {} {}} /userspace/m/mbeard/GitHub/551_Project/circularBuffer1024.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/circularBuffer1024.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
+-- Compiling module circularBuffer1024
+
+Top level modules:
+	circularBuffer1024
 
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv {1 {vlog -work work -vopt -sv -stats=none /userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
@@ -96,19 +103,19 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 Top level modules:
 	ROM_B1
 
-} {} {}} /userspace/m/mbeard/GitHub/551_Project/ADC128S.sv {1 {vlog -work work -vopt -sv -stats=none /userspace/m/mbeard/GitHub/551_Project/ADC128S.sv
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
--- Compiling module ADC128S
-
-Top level modules:
-	ADC128S
-
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/ROM_B2.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/ROM_B2.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 -- Compiling module ROM_B2
 
 Top level modules:
 	ROM_B2
+
+} {} {}} /userspace/m/mbeard/GitHub/551_Project/ADC128S.sv {1 {vlog -work work -vopt -sv -stats=none /userspace/m/mbeard/GitHub/551_Project/ADC128S.sv
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
+-- Compiling module ADC128S
+
+Top level modules:
+	ADC128S
 
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/ROM_B3.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/ROM_B3.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014

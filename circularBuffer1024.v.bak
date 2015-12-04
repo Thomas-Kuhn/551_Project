@@ -1,14 +1,14 @@
-module circularBuffer1024(clk, rst_n, new_smpl, wrt_smpl, smpl_out, sequencing);
+module circularBuffer1024(clk, rst_n, new_smpl, wrt_smpl, smpl_out, rdPointer, sequencing);
 
 input 	clk, rst_n, wrt_smpl;
 input 	[15:0] new_smpl;
 output  [15:0] smpl_out;
 output 	reg sequencing;
-
+output reg [9:0]rdPointer;
 
 reg [9:0] samples_in, full_counter;
 reg [10:0] system_counter;
-reg [9:0] wrtPointer, rdPointer;
+reg [9:0] wrtPointer;
 reg enable_write;
 reg wrt_initiated;
 
