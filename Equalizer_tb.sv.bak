@@ -28,9 +28,7 @@ module Equalizer_tb();
                .MISO(A2D_MISO),.MOSI(A2D_MOSI));
 				
   initial begin
-  RST_n = 1;
-#1000
-RST_n = 0;
+  
   end
   
   always
