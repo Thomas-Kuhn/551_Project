@@ -10,7 +10,7 @@ cModel Technology
 d/userspace/t/tkuhn/ECE551/modelsim/HW_5
 vA2D_intf
 Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
-Z1 !s110 1449076274
+Z1 !s110 1449254766
 !i10b 1
 !s100 L^[ojARbYEL5S>deE9C:M1
 I=OlWR6gQ5VF2fLTEV:lLf0
@@ -26,7 +26,7 @@ Z4 OL;L;10.4;61
 r1
 !s85 0
 31
-!s108 1449076274.514408
+!s108 1449254766.009354
 !s107 /userspace/t/tkuhn/ECE551/551_Project/A2D_intf.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/A2D_intf.sv|
 !i113 0
@@ -34,7 +34,7 @@ Z5 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 n@a2@d_intf
 vADC128S
 R0
-Z6 !s110 1449076273
+Z6 !s110 1449254765
 !i10b 1
 !s100 Qn1:T3Xcn8aISo2[N^?5F0
 Ii6=JH[K[WbCdFCYmFg<3i3
@@ -50,14 +50,14 @@ R4
 r1
 !s85 0
 31
-!s108 1449076273.768361
+!s108 1449254764.963946
 !s107 /userspace/t/tkuhn/ECE551/551_Project/ADC128S.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/ADC128S.sv|
 !i113 0
 R5
 n@a@d@c128@s
 vcircularBuffer1024
-R1
+R6
 !i10b 1
 !s100 [H]j^g6]`9zRNalEmm8GG1
 IaLcMaU^>T62dR>0L];<=j3
@@ -71,14 +71,14 @@ R4
 r1
 !s85 0
 31
-!s108 1449076274.370382
+!s108 1449254765.809421
 !s107 /userspace/t/tkuhn/ECE551/551_Project/circularBuffer1024.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/circularBuffer1024.v|
 !i113 0
 Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 ncircular@buffer1024
 vcircularBuffer1536
-R1
+R6
 !i10b 1
 !s100 J0U]kJBN8zbdSIZB6oBMj2
 I2lPkU^lHeN:P><7?L]FRC3
@@ -92,7 +92,7 @@ R4
 r1
 !s85 0
 31
-!s108 1449076274.423046
+!s108 1449254765.872599
 !s107 /userspace/t/tkuhn/ECE551/551_Project/circularBuffer1536.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/circularBuffer1536.v|
 !i113 0
@@ -113,7 +113,7 @@ R4
 r1
 !s85 0
 31
-!s108 1449076273.857527
+!s108 1449254765.056792
 !s107 /userspace/t/tkuhn/ECE551/551_Project/CS4272.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/CS4272.v|
 !i113 0
@@ -134,7 +134,7 @@ R4
 r1
 !s85 0
 31
-!s108 1449076273.913526
+!s108 1449254765.137959
 !s107 /userspace/t/tkuhn/ECE551/551_Project/dualPort1024x16.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/dualPort1024x16.v|
 !i113 0
@@ -155,7 +155,7 @@ R4
 r1
 !s85 0
 31
-!s108 1449076273.977676
+!s108 1449254765.201497
 !s107 /userspace/t/tkuhn/ECE551/551_Project/dualPort1536x16.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/dualPort1536x16.v|
 !i113 0
@@ -163,7 +163,7 @@ R8
 ndual@port1536x16
 vEqualizer
 R0
-R1
+R6
 !i10b 1
 !s100 31o^Og>fmAA;:;n@^W7ok0
 IIYM55ajVF6e^=IfCzJ<6j1
@@ -179,7 +179,7 @@ R4
 r1
 !s85 0
 31
-!s108 1449076274.022406
+!s108 1449254765.265671
 !s107 /userspace/t/tkuhn/ECE551/551_Project/Equalizer.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/Equalizer.sv|
 !i113 0
@@ -187,7 +187,7 @@ R5
 n@equalizer
 vEqualizer_tb
 R0
-R1
+R6
 !i10b 1
 !s100 F[K2SjU4Y3oHf68ze<A1O0
 InZf3DgigClW7Fdl2H6kO63
@@ -203,14 +203,35 @@ R4
 r1
 !s85 0
 31
-!s108 1449076274.067110
+!s108 1449254765.331621
 !s107 /userspace/t/tkuhn/ECE551/551_Project/Equalizer_tb.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/Equalizer_tb.sv|
 !i113 0
 R5
 n@equalizer_tb
-vROM_B1
+vLP_fir
 R1
+!i10b 1
+!s100 bK;M4cNjmH>kn5eJDjgIA3
+I;9KI8bkg]Am5VmJcedPKj1
+R2
+R3
+w1449254761
+8/userspace/t/tkuhn/ECE551/551_Project/LP_fir.v
+F/userspace/t/tkuhn/ECE551/551_Project/LP_fir.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1449254766.072503
+!s107 /userspace/t/tkuhn/ECE551/551_Project/LP_fir.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/LP_fir.v|
+!i113 0
+R8
+n@l@p_fir
+vROM_B1
+R6
 !i10b 1
 !s100 7kWZAPVWeiDHcgJNkM1]R2
 I8hbNB8eO4D:8D4eB0MPTo2
@@ -224,14 +245,14 @@ R4
 r1
 !s85 0
 31
-!s108 1449076274.111768
+!s108 1449254765.409788
 !s107 /userspace/t/tkuhn/ECE551/551_Project/ROM_B1.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/ROM_B1.v|
 !i113 0
 R8
 n@r@o@m_@b1
 vROM_B2
-R1
+R6
 !i10b 1
 !s100 49AVDUoT1i0bibAz<<>Je3
 Id6^eNo]<jkTg5R0Mz4Dha2
@@ -245,14 +266,14 @@ R4
 r1
 !s85 0
 31
-!s108 1449076274.153830
+!s108 1449254765.473162
 !s107 /userspace/t/tkuhn/ECE551/551_Project/ROM_B2.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/ROM_B2.v|
 !i113 0
 R8
 n@r@o@m_@b2
 vROM_B3
-R1
+R6
 !i10b 1
 !s100 CIF_6E>Lk0nEFeB6V8B730
 IIYE;007c>2e9hi9J5`EYn0
@@ -266,14 +287,14 @@ R4
 r1
 !s85 0
 31
-!s108 1449076274.195837
+!s108 1449254765.533278
 !s107 /userspace/t/tkuhn/ECE551/551_Project/ROM_B3.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/ROM_B3.v|
 !i113 0
 R8
 n@r@o@m_@b3
 vROM_HP
-R1
+R6
 !i10b 1
 !s100 XG7O0ofO[Az;oITQ@V1>k2
 Iz@8H021ne;XUd65:aQn[j3
@@ -287,14 +308,14 @@ R4
 r1
 !s85 0
 31
-!s108 1449076274.238976
+!s108 1449254765.592424
 !s107 /userspace/t/tkuhn/ECE551/551_Project/ROM_HP.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/ROM_HP.v|
 !i113 0
 R8
 n@r@o@m_@h@p
 vROM_LP
-R1
+R6
 !i10b 1
 !s100 UPX2H1?LRoN05]00V8<^g0
 I<o;]CBD[[[MkHNXoj6N?l0
@@ -308,7 +329,7 @@ R4
 r1
 !s85 0
 31
-!s108 1449076274.282846
+!s108 1449254765.655109
 !s107 /userspace/t/tkuhn/ECE551/551_Project/ROM_LP.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/ROM_LP.v|
 !i113 0
@@ -316,7 +337,7 @@ R8
 n@r@o@m_@l@p
 vslide_intf
 R0
-R1
+R6
 !i10b 1
 !s100 ^AgzK<LDW`RAb@7f5:O@U1
 IDWlY@LY7[oQ7;4aCSiYi`0
@@ -332,14 +353,14 @@ R4
 r1
 !s85 0
 31
-!s108 1449076274.465592
+!s108 1449254765.943481
 !s107 /userspace/t/tkuhn/ECE551/551_Project/slide_intf.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/slide_intf.sv|
 !i113 0
 R5
 vSPI_ADC128S
 R0
-R1
+R6
 !i10b 1
 !s100 ;E62=i88@ghW83DU@9;CK1
 ICaMezK_9>1I]?F[2?6Nj33
@@ -355,7 +376,7 @@ R4
 r1
 !s85 0
 31
-!s108 1449076274.325351
+!s108 1449254765.739578
 !s107 /userspace/t/tkuhn/ECE551/551_Project/SPI_ADC128S.sv|
 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/t/tkuhn/ECE551/551_Project/SPI_ADC128S.sv|
 !i113 0
