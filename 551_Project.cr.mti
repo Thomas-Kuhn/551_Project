@@ -33,6 +33,13 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 Top level modules:
 	circularBuffer1536
 
+} {} {}} /userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv {1 {vlog -work work -vopt -sv -stats=none /userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
+-- Compiling module dig_core_intf
+
+Top level modules:
+	dig_core_intf
+
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/ROM_LP.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/ROM_LP.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 -- Compiling module ROM_LP
