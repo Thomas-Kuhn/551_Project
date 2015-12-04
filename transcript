@@ -1,0 +1,29 @@
+# Reading C:/ProgramData/App-V/2191B702-5279-4048-91BA-BCF8F2A20B49/21710E5E-1DEB-4C76-9578-9609978C17F5/Root/tcl/vsim/pref.tcl
+# //  ModelSim SE 10.3c Jul 19 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile I:/GitHub/551_Project/551_Project.mpf
+# Loading project 551_Project
+# Compile of SPI_ADC128S.sv was successful.
+# Compile of A2D_intf.sv was successful.
+# Compile of ADC128S.sv was successful.
+# Compile of circularBuffer1024.v was successful.
+# Compile of circularBuffer1536.v was successful.
+# Compile of CS4272.v was successful.
+# Compile of dualPort1024x16.v was successful.
+# Compile of dualPort1536x16.v was successful.
+# Compile of Equalizer.sv was successful.
+# Compile of Equalizer_tb.sv was successful.
+# Compile of ROM_B1.v was successful.
+# Compile of ROM_B2.v was successful.
+# Compile of ROM_B3.v was successful.
+# Compile of ROM_HP.v was successful.
+# Compile of ROM_LP.v was successful.
+# Compile of slide_intf.sv was successful.
+# 16 compiles, 0 failed with no errors.
