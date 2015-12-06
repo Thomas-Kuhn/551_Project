@@ -1,16 +1,16 @@
-/userspace/m/mbeard/GitHub/551_Project/slide_intf.sv {1 {vlog -work work -vopt -sv -stats=none /userspace/m/mbeard/GitHub/551_Project/slide_intf.sv
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
--- Compiling module slide_intf
-
-Top level modules:
-	slide_intf
-
-} {} {}} /userspace/m/mbeard/GitHub/551_Project/LP_fir.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/LP_fir.v
+/userspace/m/mbeard/GitHub/551_Project/LP_fir.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/LP_fir.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 -- Compiling module LP_fir
 
 Top level modules:
 	LP_fir
+
+} {} {}} /userspace/m/mbeard/GitHub/551_Project/slide_intf.sv {1 {vlog -work work -vopt -sv -stats=none /userspace/m/mbeard/GitHub/551_Project/slide_intf.sv
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
+-- Compiling module slide_intf
+
+Top level modules:
+	slide_intf
 
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/band_scale.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/band_scale.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
@@ -94,6 +94,17 @@ Top level modules:
 
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/B1_fir.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/B1_fir.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
+-- Compiling module B1_fir
+
+Top level modules:
+	B1_fir
+
+} {} {}} /userspace/m/mbeard/GitHub/551_Project/B2_fir.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/B2_fir.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
+-- Compiling module B2_fir
+
+Top level modules:
+	B2_fir
 
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/SPI_mstr.sv {1 {vlog -work work -vopt -sv -stats=none /userspace/m/mbeard/GitHub/551_Project/SPI_mstr.sv
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
@@ -109,8 +120,12 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 Top level modules:
 	SPI_ADC128S
 
-} {} {}} /userspace/m/mbeard/GitHub/551_Project/B2_fir.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/B2_fir.v
+} {} {}} /userspace/m/mbeard/GitHub/551_Project/B3_fir.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/B3_fir.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
+-- Compiling module B3_fir
+
+Top level modules:
+	B3_fir
 
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/CS4272.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/CS4272.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
@@ -119,8 +134,12 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 Top level modules:
 	CS4272
 
-} {} {}} /userspace/m/mbeard/GitHub/551_Project/B3_fir.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/B3_fir.v
+} {} {}} /userspace/m/mbeard/GitHub/551_Project/HP_fir.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/HP_fir.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
+-- Compiling module HP_fir
+
+Top level modules:
+	HP_fir
 
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/ROM_B1.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/ROM_B1.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
@@ -128,9 +147,6 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 
 Top level modules:
 	ROM_B1
-
-} {} {}} /userspace/m/mbeard/GitHub/551_Project/HP_fir.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/HP_fir.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/ROM_B2.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/ROM_B2.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
