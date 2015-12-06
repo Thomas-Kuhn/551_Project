@@ -12,40 +12,12 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 Top level modules:
 	slide_intf
 
-} {} {}} /userspace/m/mbeard/GitHub/551_Project/Equalizer.sv {1 {vlog -work work -vopt -sv -stats=none /userspace/m/mbeard/GitHub/551_Project/Equalizer.sv
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
--- Compiling module Equalizer
-
-Top level modules:
-	Equalizer
-
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/ROM_HP.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/ROM_HP.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 -- Compiling module ROM_HP
 
 Top level modules:
 	ROM_HP
-
-} {} {}} /userspace/m/mbeard/GitHub/551_Project/circularBuffer1536.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/circularBuffer1536.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
--- Compiling module circularBuffer1536
-
-Top level modules:
-	circularBuffer1536
-
-} {} {}} /userspace/m/mbeard/GitHub/551_Project/circularBuffer1024.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/circularBuffer1024.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
--- Compiling module circularBuffer1024
-
-Top level modules:
-	circularBuffer1024
-
-} {} {}} /userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv {1 {vlog -work work -vopt -sv -stats=none /userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
--- Compiling module dig_core_intf
-
-Top level modules:
-	dig_core_intf
 
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/ROM_LP.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/ROM_LP.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
@@ -75,13 +47,6 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 Top level modules:
 	A2D_intf
 
-} {} {}} /userspace/m/mbeard/GitHub/551_Project/Equalizer_tb.sv {1 {vlog -work work -vopt -sv -stats=none /userspace/m/mbeard/GitHub/551_Project/Equalizer_tb.sv
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
--- Compiling module Equalizer_tb
-
-Top level modules:
-	Equalizer_tb
-
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/SPI_ADC128S.sv {1 {vlog -work work -vopt -sv -stats=none /userspace/m/mbeard/GitHub/551_Project/SPI_ADC128S.sv
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 -- Compiling module SPI_ADC128S
@@ -103,19 +68,19 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 Top level modules:
 	ROM_B1
 
-} {} {}} /userspace/m/mbeard/GitHub/551_Project/ROM_B2.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/ROM_B2.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
--- Compiling module ROM_B2
-
-Top level modules:
-	ROM_B2
-
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/ADC128S.sv {1 {vlog -work work -vopt -sv -stats=none /userspace/m/mbeard/GitHub/551_Project/ADC128S.sv
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 -- Compiling module ADC128S
 
 Top level modules:
 	ADC128S
+
+} {} {}} /userspace/m/mbeard/GitHub/551_Project/ROM_B2.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/ROM_B2.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
+-- Compiling module ROM_B2
+
+Top level modules:
+	ROM_B2
 
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/ROM_B3.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/ROM_B3.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
