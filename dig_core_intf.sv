@@ -28,12 +28,12 @@ band_scale lp_L(.POT(POT_LP), .audio(filtered_lp_L), .scaled(pot_filtered_lp_L))
 band_scale lp_R(.POT(POT_LP), .audio(filtered_lp_R), .scaled(pot_filtered_lp_R));
 band_scale b1_L(.POT(POT_B1), .audio(filtered_b1_L), .scaled(pot_filtered_b1_L));
 band_scale b1_R(.POT(POT_B1), .audio(filtered_b1_R), .scaled(pot_filtered_b1_R));
-band_scale b2_L(POT_B2, filtered_b2_L, pot_filtered_b2_L);
-band_scale b2_R(POT_B2, filtered_b2_R, pot_filtered_b2_R);
-band_scale b3_L(POT_B3, filtered_b3_L, pot_filtered_b3_L);
-band_scale b3_R(POT_B3, filtered_b3_R, pot_filtered_b3_R);
-band_scale hp_L(POT_HP, filtered_hp_L, pot_filtered_hp_L);
-band_scale hp_R(POT_HP, filtered_hp_R, pot_filtered_hp_R);
+band_scale b2_L(.POT(POT_B2), .audio(filtered_b2_L), .scaled(pot_filtered_b2_L));
+band_scale b2_R(.POT(POT_B2), .audio(filtered_b2_R), .scaled(pot_filtered_b2_R));
+band_scale b3_L(.POT(POT_B3), .audio(filtered_b3_L), .scaled(pot_filtered_b3_L));
+band_scale b3_R(.POT(POT_B3), .audio(filtered_b3_R), .scaled(pot_filtered_b3_R));
+band_scale hp_L(.POT(POT_HP), .audio(filtered_hp_L), .scaled(pot_filtered_hp_L));
+band_scale hp_R(.POT(POT_HP), .audio(filtered_hp_R), .scaled(pot_filtered_hp_R));
 
 
 assign summed_audio_L = pot_filtered_lp_L + pot_filtered_b1_L + pot_filtered_b2_L + pot_filtered_b3_L + pot_filtered_hp_L;
@@ -42,6 +42,6 @@ assign summed_audio_R = pot_filtered_lp_R + pot_filtered_b1_R + pot_filtered_b2_
 band_scale vol_L(.POT(POT_VOL), .audio(summed_audio_L), .scaled(lft_out));
 band_scale vol_R(.POT(POT_VOL), .audio(summed_audio_R), .scaled(rht_out));
 
-assign AMP_ON = low_seq_L & low_seq_R & high_seq_L & high_seq_R & valid;
+assign AMP_ON = low_seq_L & low_seq_R & high_seq_L & high_seq_R;
 
 endmodule
