@@ -8,12 +8,6 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 Top level modules:
 	codec_intf
 
-} {} {}} /userspace/t/tkuhn/ECE551/551_Project/B1_fir.v {1 {vlog -work work -vopt -stats=none /userspace/t/tkuhn/ECE551/551_Project/B1_fir.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
-
-} {} {}} /userspace/t/tkuhn/ECE551/551_Project/B2_fir.v {1 {vlog -work work -vopt -stats=none /userspace/t/tkuhn/ECE551/551_Project/B2_fir.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
-
 } {} {}} /userspace/t/tkuhn/ECE551/551_Project/CS4272.v {1 {vlog -work work -vopt -stats=none /userspace/t/tkuhn/ECE551/551_Project/CS4272.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 -- Compiling module CS4272
@@ -21,18 +15,12 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 Top level modules:
 	CS4272
 
-} {} {}} /userspace/t/tkuhn/ECE551/551_Project/B3_fir.v {1 {vlog -work work -vopt -stats=none /userspace/t/tkuhn/ECE551/551_Project/B3_fir.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
-
 } {} {}} /userspace/t/tkuhn/ECE551/551_Project/ROM_B1.v {1 {vlog -work work -vopt -stats=none /userspace/t/tkuhn/ECE551/551_Project/ROM_B1.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 -- Compiling module ROM_B1
 
 Top level modules:
 	ROM_B1
-
-} {} {}} /userspace/t/tkuhn/ECE551/551_Project/HP_fir.v {1 {vlog -work work -vopt -stats=none /userspace/t/tkuhn/ECE551/551_Project/HP_fir.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 
 } {} {}} /userspace/t/tkuhn/ECE551/551_Project/ROM_B2.v {1 {vlog -work work -vopt -stats=none /userspace/t/tkuhn/ECE551/551_Project/ROM_B2.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
@@ -82,6 +70,13 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 
 Top level modules:
 	ROM_B3
+
+} {} {}} /userspace/t/tkuhn/ECE551/551_Project/LP_fir.v {1 {vlog -work work -vopt -stats=none /userspace/t/tkuhn/ECE551/551_Project/LP_fir.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
+-- Compiling module LP_fir
+
+Top level modules:
+	LP_fir
 
 } {} {}} /userspace/t/tkuhn/ECE551/551_Project/band_scale.v {1 {vlog -work work -vopt -stats=none /userspace/t/tkuhn/ECE551/551_Project/band_scale.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
