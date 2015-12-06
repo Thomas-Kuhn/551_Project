@@ -4,17 +4,17 @@ module Equalizer_tb();
   //////////////////////////
 
 reg clk,RST_n;		// 50MHz clock and asynch active low reset from push button
-wire [7:0] LED;		// Active high outputs that drive LEDs
+reg [7:0] LED;		// Active high outputs that drive LEDs
 reg A2D_SS_n;		// Active low slave select to ADC
-wire A2D_MOSI;		// Master Out Slave in to ADC
-wire A2D_SCLK;		// SCLK on SPI interface to ADC
+reg A2D_MOSI;		// Master Out Slave in to ADC
+reg A2D_SCLK;		// SCLK on SPI interface to ADC
 reg A2D_MISO;			// Master In Slave Out from ADC
 reg MCLK; 		// 12.5MHz clock to CODEC
 reg  SCLK;				// serial shift clock clock to CODEC
 reg  LRCLK; 			// Left/Right clock to CODEC
 reg  SDin;			// forms serial data in to CODEC
 reg SDout;			// from CODEC SDout pin (serial data in to core)
-wire AMP_ON;			// signal to turn amp on	
+reg AMP_ON;			// signal to turn amp on	
 
            // master clock to the chip
 reg RSTn;            // chip reset
