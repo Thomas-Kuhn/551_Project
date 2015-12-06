@@ -25,7 +25,7 @@ wire [15:0] lft_in,rht_in;
 wire [15:0] lft_out,rht_out,lft_out_sel,rht_out_sel;
 wire [2:0] chnnl;
 wire [11:0] res;
-wire [12:0] LP_gain,B1_gain,B2_gain,B3_gain,HP_gain,volume;
+wire [11:0] LP_gain,B1_gain,B2_gain,B3_gain,HP_gain,volume;
 
 reg [10:0] del;
 
@@ -43,9 +43,9 @@ A2D_intf iA2D(.clk(clk),.rst_n(rst_n),.strt_cnv(strt_cnv),.cnv_cmplt(cnv_cmplt),
 ///////////////////////////////////////////
 // Instantiate Your Slide Pot Interface //
 /////////////////////////////////////////
-slide_intf iSLD(.clk(clk), .rst_n(rst_n), .strt_cnv(strt_cnv), .chnnl(chnnl), .cnv_cmplt(cnv_cmplt), .res(res),
-                .LP_gain(LP_gain), .B1_gain(B1_gain), .B2_gain(B2_gain), .B3_gain(B3_gain), .HP_gain(HP_gain),
-                .volume(volume));		
+slide_intf iSLD(.POT_LP(LP_gain), .POT_B1(B1_gain), .POT_B2(B2_gain), .POT_B3(B3_gain), .POT_HP(HP_gain), .VOLUME(volume),.MISO(A2D_MISO),.MOSI(A2D_MOSI),
+             SCLK,clk,rst_n,a2d_SS_n);
+	
 				
 ///////////////////////////////////////
 // Instantiate Your CODEC Interface //
@@ -56,7 +56,7 @@ codec_intf iCS(.clk(clk), .rst_n(rst_n), .lft_in(lft_in), .rht_in(rht_in), .lft_
 ///////////////////////////////////
 // Instantiate Equalizer Engine //
 /////////////////////////////////
-dig_core_intf(.clk(clk), .rst_n(rst_n), .lft_in(lft_in), .rht_in(rht_in), .lft_out(lft_out), .rht_out(rht_out), 
+dig_core_intf iDig(.clk(clk), .rst_n(rst_n), .lft_in(lft_in), .rht_in(rht_in), .lft_out(lft_out), .rht_out(rht_out), 
 		.valid(valid), .POT_B1(B1_gain),.POT_B2(B2_gain), .POT_B3(B3_gain), .POT_HP(HP_gain), .POT_LP(LP_gain),
 		 .POT_VOL(volume), .AMP_ON(AMP_ON));
 
@@ -76,7 +76,7 @@ assign LED  = (volume < 64) ? 8'h00 :
 // Implement logic for delaying Amp on till //
 // after queues are steady.   (AMP_ON)     //
 ////////////////////////////////////////////
-
+//done in dig_core_intf
 
 
 endmodule

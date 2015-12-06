@@ -44,8 +44,12 @@ always_comb begin
               end
         //if we are in the FIRSTSPI state and we are done with the conversion
         FIRSTSPI: if(done) begin
+                     //we are waiting
                      nextState = WAIT;
+                 //if we are not done, the next state is this state
                  end else nextState = FIRSTSPI;
+
+        //if we are in the WAIT state, we go to DONE state
         WAIT: nextState = DONE;
         default: if(done) begin   //is DONE
                      wrt = 1'b1;
