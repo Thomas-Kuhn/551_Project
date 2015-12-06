@@ -1271,7 +1271,7 @@ r1
 R202
 vA2D_intf
 R206
-Z251 !s110 1449247828
+Z251 !s110 1449429193
 !i10b 1
 R208
 R209
@@ -1287,40 +1287,34 @@ R250
 r1
 !s85 0
 31
-!s108 1449247828.120530
+!s108 1449429192.961518
 R200
 R201
 !i113 0
 R202
 vADC128S
-R215
-R177
+R206
+R251
 !i10b 1
 Z252 !s100 Qn1:T3Xcn8aISo2[N^?5F0
 Z253 Ig;A4ah@W`f2?S`HPgEc8b3
-R42
+R210
 Z254 !s105 ADC128S_sv_unit
 S1
-R43
+R211
 R71
 Z255 8/userspace/m/mbeard/GitHub/551_Project/ADC128S.sv
 Z256 F/userspace/m/mbeard/GitHub/551_Project/ADC128S.sv
 L0 1
-R218
+R250
 r1
 !s85 0
 31
-Z257 !s108 1449077975.602208
-Z258 !s107 /userspace/m/mbeard/GitHub/551_Project/ADC128S.sv|
-Z259 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/m/mbeard/GitHub/551_Project/ADC128S.sv|
+!s108 1449429193.143966
+Z257 !s107 /userspace/m/mbeard/GitHub/551_Project/ADC128S.sv|
+Z258 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/m/mbeard/GitHub/551_Project/ADC128S.sv|
 !i113 0
 R202
-R4
-Z260 !s108 1449076755.562000
-Z261 !s107 I:/GitHub/551_Project/ADC128S.sv|
-Z262 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/GitHub/551_Project/ADC128S.sv|
-!i113 0
-R71
 vADC128S
 R206
 R247
@@ -1346,7 +1340,7 @@ r1
 R202
 vADC128S
 R206
-R251
+Z259 !s110 1449247828
 !i10b 1
 R252
 R253
@@ -1363,8 +1357,8 @@ r1
 !s85 0
 31
 !s108 1449247828.277756
+R257
 R258
-R259
 !i113 0
 R202
 vADC128S
@@ -1385,21 +1379,21 @@ R218
 r1
 !s85 0
 31
+!s108 1449077975.602208
 R257
 R258
-R259
 !i113 0
 R202
 R210
-R260
-R261
-R262
+!s108 1449076755.562000
+!s107 I:/GitHub/551_Project/ADC128S.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/GitHub/551_Project/ADC128S.sv|
 !i113 0
 R71
 vband_scale
 R247
 !i10b 1
-Z263 !s100 eXBj@[6QJ_M1?XLaA7V2d2
+Z260 !s100 eXBj@[6QJ_M1?XLaA7V2d2
 I8n`o0cfYFD_>K8BPkUdLG1
 R210
 R248
@@ -1417,13 +1411,13 @@ r1
 !i113 0
 R237
 vband_scale
-!s110 1449251861
+R251
 !i10b 1
-R263
+R260
 IHceHC=9Yz32M652zCY]cY0
 R210
 R211
-w1449078754
+Z261 w1449078754
 8/userspace/m/mbeard/GitHub/551_Project/band_scale.v
 F/userspace/m/mbeard/GitHub/551_Project/band_scale.v
 L0 1
@@ -1431,19 +1425,19 @@ R250
 r1
 !s85 0
 31
-!s108 1449251861.018911
+!s108 1449429193.382278
 !s107 /userspace/m/mbeard/GitHub/551_Project/band_scale.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/band_scale.v|
 !i113 0
 R237
 vcircularBuffer1024
-Z264 !s110 1449428687
+R251
 !i10b 1
-Z265 !s100 ShW61icAeX3R]aA=UB4b@2
-Z266 Id]=?<G2UMdfcefb>gJ?5Y0
+Z262 !s100 ShW61icAeX3R]aA=UB4b@2
+Z263 Id]=?<G2UMdfcefb>gJ?5Y0
 R210
 R211
-Z267 w1449253569
+Z264 w1449253569
 R195
 R196
 L0 1
@@ -1451,7 +1445,7 @@ R250
 r1
 !s85 0
 31
-!s108 1449428687.087691
+!s108 1449429193.474265
 R187
 R188
 !i113 0
@@ -1459,8 +1453,8 @@ R237
 vcircularBuffer1024
 !s110 1449252656
 !i10b 1
-R265
-R266
+R262
+R263
 R210
 R211
 w1449252653
@@ -1483,7 +1477,7 @@ R178
 IZQzSDiaj;GN@4`bg?MnWJ1
 R210
 R248
-Z268 w1449248632
+Z265 w1449248632
 8/userspace/c/cbeyers/GitHub/551_Project/circularBuffer1536.v
 F/userspace/c/cbeyers/GitHub/551_Project/circularBuffer1536.v
 L0 1
@@ -1497,13 +1491,13 @@ r1
 !i113 0
 R237
 vcircularBuffer1536
-R264
+R251
 !i10b 1
 !s100 F4dMSWV`Fd8Vf75cK=OhY1
 INZ2AVBf;fCLLOaS7SmKi>3
 R210
 R211
-R267
+R264
 R181
 R182
 L0 1
@@ -1511,32 +1505,32 @@ R250
 r1
 !s85 0
 31
-!s108 1449428687.346557
+!s108 1449429193.538719
 R172
 R173
 !i113 0
 R237
 vcodec_intf
 R206
-R247
+R251
 !i10b 1
 !s100 AVhXa>EG;eW9_iO_hkeO43
-IPEWgB@[P2OS@lz5<IGVXk2
+IXYk`M:N^=?c<:Wz9oiRUd3
 R210
 !s105 codec_intf_sv_unit
 S1
-R248
-R268
-8/userspace/c/cbeyers/GitHub/551_Project/codec_intf.sv
-F/userspace/c/cbeyers/GitHub/551_Project/codec_intf.sv
+R211
+R261
+8/userspace/m/mbeard/GitHub/551_Project/codec_intf.sv
+F/userspace/m/mbeard/GitHub/551_Project/codec_intf.sv
 L0 1
 R250
 r1
 !s85 0
 31
-!s108 1449250052.324013
-!s107 /userspace/c/cbeyers/GitHub/551_Project/codec_intf.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/c/cbeyers/GitHub/551_Project/codec_intf.sv|
+!s108 1449429193.605642
+!s107 /userspace/m/mbeard/GitHub/551_Project/codec_intf.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/m/mbeard/GitHub/551_Project/codec_intf.sv|
 !i113 0
 R202
 vCS4272
@@ -1574,55 +1568,55 @@ R250
 r1
 !s85 0
 31
-!s108 1449247828.442028
+!s108 1449429193.708811
 R158
 R159
 !i113 0
 R237
 vdig_core_intf
 R206
-R264
+R251
 !i10b 1
-Z269 !s100 Cg[_oXjd5d@B^E9oE;j4j3
-Z270 IPa85jzHEj3dObcIeU^jgE1
+Z266 !s100 Cg[_oXjd5d@B^E9oE;j4j3
+Z267 IPa85jzHEj3dObcIeU^jgE1
 R210
-Z271 !s105 dig_core_intf_sv_unit
+Z268 !s105 dig_core_intf_sv_unit
 S1
 R211
-R267
-Z272 8/userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv
-Z273 F/userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv
+R264
+Z269 8/userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv
+Z270 F/userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv
 L0 1
 R250
 r1
 !s85 0
 31
-!s108 1449428687.615139
-!s107 /userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv|
-Z274 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv|
+!s108 1449429193.788061
+Z271 !s107 /userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv|
+Z272 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv|
 !i113 0
 R202
 vdig_core_intf
 R206
 !s110 1449253415
 !i10b 1
-R269
-R270
+R266
+R267
 R210
-R271
+R268
 S1
 R211
 w1449253412
-R272
-R273
+R269
+R270
 L0 1
 R250
 r1
 !s85 0
 31
 !s108 1449253415.393670
-!s107 /userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv|
-R274
+R271
+R272
 !i113 0
 R202
 vdualPort1024x16
@@ -1632,7 +1626,7 @@ R149
 I[DlI``PzGTF@M4eTV=J_W1
 R210
 R248
-R268
+R265
 8/userspace/c/cbeyers/GitHub/551_Project/dualPort1024x16.v
 F/userspace/c/cbeyers/GitHub/551_Project/dualPort1024x16.v
 L0 1
@@ -1652,7 +1646,7 @@ R149
 R150
 R210
 R211
-R204
+R8
 R151
 R152
 L0 1
@@ -1660,33 +1654,33 @@ R250
 r1
 !s85 0
 31
-!s108 1449247828.504824
+!s108 1449429193.858824
 R144
 R145
 !i113 0
 R237
 vdualPort1536x16
-R247
+R251
 !i10b 1
 R135
-IfJje0X<>07=`b7zQNNLJN3
+R136
 R210
-R248
-R268
-8/userspace/c/cbeyers/GitHub/551_Project/dualPort1536x16.v
-F/userspace/c/cbeyers/GitHub/551_Project/dualPort1536x16.v
+R211
+R8
+R137
+R138
 L0 1
 R250
 r1
 !s85 0
 31
-!s108 1449250052.521783
-!s107 /userspace/c/cbeyers/GitHub/551_Project/dualPort1536x16.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/c/cbeyers/GitHub/551_Project/dualPort1536x16.v|
+!s108 1449429193.938073
+R130
+R131
 !i113 0
 R237
 vdualPort1536x16
-R251
+R259
 !i10b 1
 R135
 R136
@@ -1707,15 +1701,15 @@ R131
 R237
 vEqualizer
 R206
-R264
+Z273 !s110 1449428687
 !i10b 1
-!s100 cK>e0MQoP<[W[Hl^0MzmQ2
-ITVa3A85Kz56P6XllVQJkD1
+Z274 !s100 cK>e0MQoP<[W[Hl^0MzmQ2
+Z275 ITVa3A85Kz56P6XllVQJkD1
 R210
 R234
 S1
 R211
-w1449253610
+Z276 w1449253610
 R123
 R124
 L0 5
@@ -1730,15 +1724,15 @@ R118
 R202
 vEqualizer
 R206
-R251
+Z277 !s110 1449429194
 !i10b 1
-!s100 31o^Og>fmAA;:;n@^W7ok0
-R127
+R274
+R275
 R210
 R234
 S1
 R211
-R122
+R276
 R123
 R124
 L0 5
@@ -1746,45 +1740,45 @@ R250
 r1
 !s85 0
 31
-!s108 1449247828.605560
+!s108 1449429194.007200
 R117
 R118
 !i113 0
 R202
 vEqualizer_tb
 R206
-R247
+R277
 !i10b 1
-R112
-IHIBo8YjWAh:HmWULfc_A[0
+Z278 !s100 oMQ>`V2HO`TaH6CE4TfjI3
+Z279 Id2[Eo0Dd5So>gh35ChN061
 R210
 R232
 S1
-R248
-R249
-8/userspace/c/cbeyers/GitHub/551_Project/Equalizer_tb.sv
-F/userspace/c/cbeyers/GitHub/551_Project/Equalizer_tb.sv
+R211
+Z280 w1449253572
+R108
+R109
 L0 1
 R250
 r1
 !s85 0
 31
-!s108 1449250052.619731
-!s107 /userspace/c/cbeyers/GitHub/551_Project/Equalizer_tb.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/c/cbeyers/GitHub/551_Project/Equalizer_tb.sv|
+!s108 1449429194.081370
+R103
+R104
 !i113 0
 R202
 vEqualizer_tb
 R206
-R264
+R273
 !i10b 1
-!s100 oMQ>`V2HO`TaH6CE4TfjI3
-Id2[Eo0Dd5So>gh35ChN061
+R278
+R279
 R210
 R232
 S1
 R211
-w1449253572
+R280
 R108
 R109
 L0 1
@@ -1797,30 +1791,51 @@ R103
 R104
 !i113 0
 R202
-vROM_B1
-R247
+vLP_fir
+R277
 !i10b 1
-Z275 !s100 7kWZAPVWeiDHcgJNkM1]R2
-I1SLe53aAd76=QcbFzoh_B2
+!s100 4HFB?ARafZidF?c49=<aD0
+IB>QkMeeBJ4`4^2MzDYam71
 R210
-R248
-R249
-8/userspace/c/cbeyers/GitHub/551_Project/ROM_B1.v
-F/userspace/c/cbeyers/GitHub/551_Project/ROM_B1.v
+R211
+w1449429134
+8/userspace/m/mbeard/GitHub/551_Project/LP_fir.v
+F/userspace/m/mbeard/GitHub/551_Project/LP_fir.v
 L0 1
 R250
 r1
 !s85 0
 31
-!s108 1449250052.700326
-!s107 /userspace/c/cbeyers/GitHub/551_Project/ROM_B1.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/c/cbeyers/GitHub/551_Project/ROM_B1.v|
+!s108 1449429194.251180
+!s107 /userspace/m/mbeard/GitHub/551_Project/LP_fir.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/LP_fir.v|
+!i113 0
+R237
+n@l@p_fir
+vROM_B1
+R277
+!i10b 1
+Z281 !s100 7kWZAPVWeiDHcgJNkM1]R2
+R96
+R210
+R211
+R71
+R97
+R98
+L0 1
+R250
+r1
+!s85 0
+31
+!s108 1449429194.323810
+R91
+R92
 !i113 0
 R237
 vROM_B1
-R251
+R259
 !i10b 1
-R275
+R281
 R96
 R210
 R211
@@ -1858,7 +1873,7 @@ r1
 !i113 0
 R237
 vROM_B2
-R251
+R277
 !i10b 1
 R83
 R84
@@ -1872,33 +1887,33 @@ R250
 r1
 !s85 0
 31
-!s108 1449247828.767224
+!s108 1449429194.401761
 R78
 R79
 !i113 0
 R237
 vROM_B3
-R247
+R277
 !i10b 1
 R69
-I0h_l]5aP<HcX@=ZmW6?Vn1
+R70
 R210
-R248
-R249
-8/userspace/c/cbeyers/GitHub/551_Project/ROM_B3.v
-F/userspace/c/cbeyers/GitHub/551_Project/ROM_B3.v
+R211
+R71
+R72
+R73
 L0 1
 R250
 r1
 !s85 0
 31
-!s108 1449250052.793307
-!s107 /userspace/c/cbeyers/GitHub/551_Project/ROM_B3.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/c/cbeyers/GitHub/551_Project/ROM_B3.v|
+!s108 1449429194.478685
+R64
+R65
 !i113 0
 R237
 vROM_B3
-R251
+R259
 !i10b 1
 R69
 R70
@@ -1938,13 +1953,13 @@ r1
 !i113 0
 R237
 vROM_HP
-R251
+R277
 !i10b 1
 R56
 R57
 R210
 R211
-R204
+R8
 R58
 R59
 L0 1
@@ -1952,33 +1967,33 @@ R250
 r1
 !s85 0
 31
-!s108 1449247828.873165
+!s108 1449429194.549547
 R51
 R52
 !i113 0
 R237
 vROM_LP
-R247
+R277
 !i10b 1
 R40
-I3l^=IMEa[2kCmd9:G;CVG3
+R41
 R210
-R248
-R249
-8/userspace/c/cbeyers/GitHub/551_Project/ROM_LP.v
-F/userspace/c/cbeyers/GitHub/551_Project/ROM_LP.v
+R211
+R8
+R44
+R45
 L0 1
 R250
 r1
 !s85 0
 31
-!s108 1449250052.888142
-!s107 /userspace/c/cbeyers/GitHub/551_Project/ROM_LP.v|
-!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/c/cbeyers/GitHub/551_Project/ROM_LP.v|
+!s108 1449429194.619196
+R35
+R36
 !i113 0
 R237
 vROM_LP
-R251
+R259
 !i10b 1
 R40
 R41
@@ -2007,7 +2022,7 @@ R210
 R226
 S1
 R248
-R268
+R265
 8/userspace/c/cbeyers/GitHub/551_Project/slide_intf.sv
 F/userspace/c/cbeyers/GitHub/551_Project/slide_intf.sv
 L0 1
@@ -2022,7 +2037,7 @@ r1
 R202
 vslide_intf
 R206
-Z276 !s110 1449247829
+R277
 !i10b 1
 R29
 R30
@@ -2038,37 +2053,37 @@ R250
 r1
 !s85 0
 31
-!s108 1449247828.983756
-R221
+!s108 1449429194.687974
+R21
 R22
 !i113 0
 R202
 vSPI_ADC128S
 R206
-Z277 !s110 1449250053
+R277
 !i10b 1
 R15
-IRAf;>Go^kz4]VT5`PJX]K3
+R16
 R210
 R223
 S1
-R248
-R249
-8/userspace/c/cbeyers/GitHub/551_Project/SPI_ADC128S.sv
-F/userspace/c/cbeyers/GitHub/551_Project/SPI_ADC128S.sv
+R211
+R8
+R9
+R10
 L0 1
 R250
 r1
 !s85 0
 31
-!s108 1449250052.987783
-!s107 /userspace/c/cbeyers/GitHub/551_Project/SPI_ADC128S.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/c/cbeyers/GitHub/551_Project/SPI_ADC128S.sv|
+!s108 1449429194.774644
+R2
+R3
 !i113 0
 R202
 vSPI_ADC128S
 R206
-R276
+!s110 1449247829
 !i10b 1
 R43
 R218
@@ -2097,22 +2112,42 @@ R206
 R277
 !i10b 1
 !s100 R6Q8b>LS23ZW^zOE[F<PU1
-I?D?gaGF89on5iZK8X81^A2
+IihNcK@`Y`gX5jkn8T01fe1
 R210
 !s105 SPI_mstr_sv_unit
 S1
-R248
-R249
-8/userspace/c/cbeyers/GitHub/551_Project/SPI_mstr.sv
-F/userspace/c/cbeyers/GitHub/551_Project/SPI_mstr.sv
+R211
+R261
+8/userspace/m/mbeard/GitHub/551_Project/SPI_mstr.sv
+F/userspace/m/mbeard/GitHub/551_Project/SPI_mstr.sv
 L0 9
 R250
 r1
 !s85 0
 31
-!s108 1449250053.038517
-!s107 /userspace/c/cbeyers/GitHub/551_Project/SPI_mstr.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/c/cbeyers/GitHub/551_Project/SPI_mstr.sv|
+!s108 1449429194.847105
+!s107 /userspace/m/mbeard/GitHub/551_Project/SPI_mstr.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|/userspace/m/mbeard/GitHub/551_Project/SPI_mstr.sv|
 !i113 0
 R202
 n@s@p@i_mstr
+vsqrt
+R277
+!i10b 1
+!s100 V]3JYaTZl`:9lI0[ghhYb2
+I[eZgk:>lX8]VlgG24Mj0i0
+R210
+R211
+R261
+8/userspace/m/mbeard/GitHub/551_Project/sqrt.v
+F/userspace/m/mbeard/GitHub/551_Project/sqrt.v
+L0 1
+R250
+r1
+!s85 0
+31
+!s108 1449429194.924814
+!s107 /userspace/m/mbeard/GitHub/551_Project/sqrt.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/userspace/m/mbeard/GitHub/551_Project/sqrt.v|
+!i113 0
+R237
