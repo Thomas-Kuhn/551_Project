@@ -40,5 +40,6 @@ assign summed_audio_L = pot_filtered_lp_L + pot_filtered_b1_L + pot_filtered_b2_
 assign summed_audio_R = pot_filtered_lp_R + pot_filtered_b1_R + pot_filtered_b2_R + pot_filtered_b3_R + pot_filtered_hp_R;
 
 band_scale vol_L(.POT(POT_VOL), .audio(summed_audio_L), .scaled(lft_out));
+band_scale vol_R(.POT(POT_VOL), .audio(summed_audio_R), .scaled(rht_out));
 
 endmodule

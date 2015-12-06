@@ -15,7 +15,7 @@ output SCL;				// serial shift clock clock to CODEC
 output LRCLK;			// Left/Right clock to CODEC
 output SDin;			// forms serial data in to CODEC
 input SDout;			// from CODEC SDout pin (serial data in to core)
-output AMP_ON;			// signal to turn amp on
+output reg AMP_ON;			// signal to turn amp on
 output RSTn;			// active low reset to CODEC
 
 wire rst_n;				// internal global active low reset
@@ -76,7 +76,7 @@ assign LED  = (volume < 64) ? 8'h00 :
 // Implement logic for delaying Amp on till //
 // after queues are steady.   (AMP_ON)     //
 ////////////////////////////////////////////
-
+//done in dig_core_intf
 
 
 endmodule
