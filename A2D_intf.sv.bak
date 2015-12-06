@@ -5,7 +5,6 @@ output a2d_SS_n, SCLK, MOSI;
 output reg cnv_cmplt;
 input [2:0]chnnl;
 input clk, rst_n, strt_cnv, MISO;
-
 wire [15:0]cmd;
 wire done;
 reg [1:0]state, nextState;
