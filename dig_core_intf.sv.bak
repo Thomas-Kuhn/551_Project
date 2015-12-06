@@ -28,6 +28,8 @@ band_scale lp_L(.POT(POT_LP), .audio(filtered_lp_L), .scaled(pot_filtered_lp_L))
 band_scale lp_R(.POT(POT_LP), .audio(filtered_lp_R), .scaled(pot_filtered_lp_R));
 band_scale b1_L(.POT(POT_B1), .audio(filtered_b1_L), .scaled(pot_filtered_b1_L));
 band_scale b1_R(.POT(POT_B1), .audio(filtered_b1_R), .scaled(pot_filtered_b1_R));
+
+
 band_scale b2_L(POT_B2, filtered_b2_L, pot_filtered_b2_L);
 band_scale b2_R(POT_B2, filtered_b2_R, pot_filtered_b2_R);
 band_scale b3_L(POT_B3, filtered_b3_L, pot_filtered_b3_L);
@@ -42,6 +44,10 @@ assign summed_audio_R = pot_filtered_lp_R + pot_filtered_b1_R + pot_filtered_b2_
 band_scale vol_L(.POT(POT_VOL), .audio(summed_audio_L), .scaled(lft_out));
 band_scale vol_R(.POT(POT_VOL), .audio(summed_audio_R), .scaled(rht_out));
 
+<<<<<<< HEAD
 assign AMP_ON = low_seq_L && low_seq_R || high_seq_L && high_seq_R;
+=======
+assign AMP_ON = low_seq_L & low_seq_R & high_seq_L & high_seq_R;
+>>>>>>> 85b3aa49f2e9cc2ade2e61284315ca8b0f4310f1
 
 endmodule
