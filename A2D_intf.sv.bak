@@ -5,6 +5,7 @@ output a2d_SS_n, SCLK, MOSI;
 output reg cnv_cmplt;
 input [2:0]chnnl;
 input clk, rst_n, strt_cnv, MISO;
+
 wire [15:0]cmd;
 wire done;
 reg [1:0]state, nextState;
@@ -26,16 +27,22 @@ always@(posedge clk, negedge rst_n) begin
     else state <= nextState;
 end
 
+
+//state machine
 always_comb begin
     nextState = IDLE;
     cnv_cmplt = 1'b0;
     wrt = 1'b0;
     case(state) 
+
+        //if we are in the IDLE state and we are starting a conversion
         IDLE: if(strt_cnv) begin
+                  //we are writing
                   wrt = 1'b1;
-                  
+                  //the next state is FIRSTSPI
                   nextState = FIRSTSPI;
               end
+        //if we are in the FIRSTSPI state and we are done with the conversion
         FIRSTSPI: if(done) begin
                      nextState = WAIT;
                  end else nextState = FIRSTSPI;

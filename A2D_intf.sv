@@ -27,19 +27,29 @@ always@(posedge clk, negedge rst_n) begin
     else state <= nextState;
 end
 
+
+//state machine
 always_comb begin
     nextState = IDLE;
     cnv_cmplt = 1'b0;
     wrt = 1'b0;
     case(state) 
+
+        //if we are in the IDLE state and we are starting a conversion
         IDLE: if(strt_cnv) begin
+                  //we are writing
                   wrt = 1'b1;
-                  
+                  //the next state is FIRSTSPI
                   nextState = FIRSTSPI;
               end
+        //if we are in the FIRSTSPI state and we are done with the conversion
         FIRSTSPI: if(done) begin
+                     //we are waiting
                      nextState = WAIT;
+                 //if we are not done, the next state is this state
                  end else nextState = FIRSTSPI;
+
+        //if we are in the WAIT state, we go to DONE state
         WAIT: nextState = DONE;
         default: if(done) begin   //is DONE
                      wrt = 1'b1;

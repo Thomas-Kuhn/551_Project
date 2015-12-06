@@ -11,8 +11,13 @@ module dualPort1536x16(clk,we,waddr,raddr,wdata,rdata);
   reg [15:0] mem [1535:0];
 
   always @(posedge clk) begin
-    if (we)
+    //if we want to write
+    if (we) begin
+      //write
       mem[waddr] <= wdata;
+    end
+
+    //always read
     rdata <= mem[raddr];
   end
   // synopsys translate_on
