@@ -5,18 +5,18 @@
 module Equalizer(clk,RST_n,LED,A2D_SS_n,A2D_MOSI,A2D_SCLK,A2D_MISO,MCLK,SCL,LRCLK,SDout,SDin,AMP_ON,RSTn);
 
 input clk,RST_n;		// 50MHz clock and asynch active low reset from push button
-output [7:0] LED;		// Active high outputs that drive LEDs
-output A2D_SS_n;		// Active low slave select to ADC
-output A2D_MOSI;		// Master Out Slave in to ADC
-output A2D_SCLK;		// SCLK on SPI interface to ADC
+output reg [7:0] LED;		// Active high outputs that drive LEDs
+output reg A2D_SS_n;		// Active low slave select to ADC
+output reg A2D_MOSI;		// Master Out Slave in to ADC
+output reg A2D_SCLK;		// SCLK on SPI interface to ADC
 input A2D_MISO;			// Master In Slave Out from ADC
-output MCLK;			// 12.5MHz clock to CODEC
-output SCL;				// serial shift clock clock to CODEC
-output LRCLK;			// Left/Right clock to CODEC
-output SDin;			// forms serial data in to CODEC
+output reg MCLK;			// 12.5MHz clock to CODEC
+output reg SCL;				// serial shift clock clock to CODEC
+output reg LRCLK;			// Left/Right clock to CODEC
+output reg SDin;			// forms serial data in to CODEC
 input SDout;			// from CODEC SDout pin (serial data in to core)
 output reg AMP_ON;			// signal to turn amp on
-output RSTn;			// active low reset to CODEC
+output reg RSTn;			// active low reset to CODEC
 
 wire rst_n;				// internal global active low reset
 wire valid;

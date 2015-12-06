@@ -47,6 +47,13 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 Top level modules:
 	circularBuffer1024
 
+} {} {}} /userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv {1 {vlog -work work -vopt -sv -stats=none /userspace/m/mbeard/GitHub/551_Project/dig_core_intf.sv
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
+-- Compiling module dig_core_intf
+
+Top level modules:
+	dig_core_intf
+
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/EqualizerLoopBack.sv {1 {vlog -work work -vopt -sv -stats=none /userspace/m/mbeard/GitHub/551_Project/EqualizerLoopBack.sv
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 
@@ -71,12 +78,12 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 Top level modules:
 	ROM_LP
 
-} {} {}} /userspace/m/mbeard/GitHub/551_Project/A2D_intf.sv {1 {vlog -work work -vopt -sv -stats=none /userspace/m/mbeard/GitHub/551_Project/A2D_intf.sv
+} {} {}} /userspace/m/mbeard/GitHub/551_Project/Equalizer_tb.sv {1 {vlog -work work -vopt -sv -stats=none /userspace/m/mbeard/GitHub/551_Project/Equalizer_tb.sv
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
--- Compiling module A2D_intf
+-- Compiling module Equalizer_tb
 
 Top level modules:
-	A2D_intf
+	Equalizer_tb
 
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/sqrt.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/sqrt.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
@@ -84,13 +91,6 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 
 Top level modules:
 	sqrt
-
-} {} {}} /userspace/m/mbeard/GitHub/551_Project/Equalizer_tb.sv {1 {vlog -work work -vopt -sv -stats=none /userspace/m/mbeard/GitHub/551_Project/Equalizer_tb.sv
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
--- Compiling module Equalizer_tb
-
-Top level modules:
-	Equalizer_tb
 
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/B1_fir.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/B1_fir.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
@@ -120,19 +120,19 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 Top level modules:
 	SPI_ADC128S
 
-} {} {}} /userspace/m/mbeard/GitHub/551_Project/B3_fir.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/B3_fir.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
--- Compiling module B3_fir
-
-Top level modules:
-	B3_fir
-
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/rst_synch.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/rst_synch.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
 -- Compiling module reset_synch
 
 Top level modules:
 	reset_synch
+
+} {} {}} /userspace/m/mbeard/GitHub/551_Project/B3_fir.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/B3_fir.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014
+-- Compiling module B3_fir
+
+Top level modules:
+	B3_fir
 
 } {} {}} /userspace/m/mbeard/GitHub/551_Project/CS4272.v {1 {vlog -work work -vopt -stats=none /userspace/m/mbeard/GitHub/551_Project/CS4272.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  2 2014

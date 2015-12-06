@@ -1,7 +1,7 @@
 module A2D_intf(clk, rst_n, strt_cnv, cnv_cmplt, chnnl, res, a2d_SS_n, SCLK, MOSI, MISO);
 
 output [11:0]res;
-output a2d_SS_n, SCLK, MOSI;
+output reg a2d_SS_n, SCLK, MOSI;
 output reg cnv_cmplt;
 input [2:0]chnnl;
 input clk, rst_n, strt_cnv, MISO;

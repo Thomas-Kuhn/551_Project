@@ -11,7 +11,7 @@ output A2D_MOSI;		// Master Out Slave in to ADC
 output A2D_SCLK;		// SCLK on SPI interface to ADC
 input A2D_MISO;			// Master In Slave Out from ADC
 output MCLK;			// 12.5MHz clock to CODEC
-output SCL;				// serial shift clock clock to CODEC
+output reg SCL;				// serial shift clock clock to CODEC
 output LRCLK;			// Left/Right clock to CODEC
 output SDin;			// forms serial data in to CODEC
 input SDout;			// from CODEC SDout pin (serial data in to core)
@@ -43,8 +43,9 @@ A2D_intf iA2D(.clk(clk),.rst_n(rst_n),.strt_cnv(strt_cnv),.cnv_cmplt(cnv_cmplt),
 ///////////////////////////////////////////
 // Instantiate Your Slide Pot Interface //
 /////////////////////////////////////////
-slide_intf iSLD(.POT_LP(LP_gain), .POT_B1(B1_gain), .POT_B2(B2_gain), .POT_B3(B3_gain), .POT_HP(HP_gain), .VOLUME(volume),.MISO(A2D_MISO),.MOSI(A2D_MOSI),
-             SCLK,clk,rst_n,a2d_SS_n);
+slide_intf iSLD(.POT_LP(LP_gain), .POT_B1(B1_gain), .POT_B2(B2_gain), .POT_B3(B3_gain), 
+                .POT_HP(HP_gain), .VOLUME(volume),.MISO(A2D_MISO),.MOSI(A2D_MOSI),
+             .SCLK(SCL),.clk(clk),.rst_n(RST_n),.a2d_SS_n(A2D_SS_n));
 	
 				
 ///////////////////////////////////////
