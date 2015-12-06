@@ -7,7 +7,7 @@ output [15:0] filtered_L, filtered_R;
 reg [9:0] addr;
 wire signed [15:0] coef;
 reg signed [32:0] ans_L, ans_R;
-reg state;
+reg state, next_state;
 
 ROM_LP(.clk(clk), .addr(addr), .dout(coef));
 
