@@ -1,15 +1,14 @@
-module circularBuffer1536(clk, rst_n, new_smpl, wrt_smpl, smpl_out, rdPointer, sequencing);
+module circularBuffer1536(clk, rst_n, new_smpl, wrt_smpl, smpl_out, sequencing);
 
 input 	clk, rst_n, wrt_smpl;
 input 	[15:0] new_smpl;
 output  [15:0] smpl_out;
 output reg sequencing;
-output reg [10:0]rdPointer;
 
 reg [10:0] samples_in; //counts nuber of samples currently in the buffer
 reg [10:0] full_counter; //count how full the buffer is to determine if data should be writtn out
 reg [9:0] system_counter; //counter used to slow system clock
-reg [10:0] wrtPointer; //pointers to spaces in memory
+reg [10:0] wrtPointer, rdPointer; //pointers to spaces in memory
 reg enable_write; //tells buffer when it should write data to memory
 reg wrt_initiated; //says that data has been written to buffer
 
@@ -37,7 +36,7 @@ always @(posedge clk, negedge rst_n) begin
    
       if (wrt_initiated) begin      
       //read out data if there has been a write signaled and the buffer is full
-         if (full_counter > 11'h5FA ) begin
+         if (full_counter > 11'h3FD ) begin
             if ( samples_in > 11'h000) begin
                rdPointer <= rdPointer + 1'b1;
                if (rdPointer == 11'h600) rdPointer <= 11'h000; //prevents pointer overflowing bounds of buffer

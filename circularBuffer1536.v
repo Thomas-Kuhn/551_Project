@@ -36,7 +36,7 @@ always @(posedge clk, negedge rst_n) begin
    
       if (wrt_initiated) begin      
       //read out data if there has been a write signaled and the buffer is full
-         if (full_counter > 11'h5FA ) begin
+         if (full_counter > 11'h3FC ) begin
             if ( samples_in > 11'h000) begin
                rdPointer <= rdPointer + 1'b1;
                if (rdPointer == 11'h600) rdPointer <= 11'h000; //prevents pointer overflowing bounds of buffer
