@@ -52,7 +52,7 @@ always_comb begin
         //if we are in the WAIT state, we go to DONE state
         WAIT: nextState = DONE;
         default: if(done) begin   //is DONE
-                    // wrt = 1'b1;
+                     wrt = 1'b1;
                      cnv_cmplt = 1'b1;
                  end
                      

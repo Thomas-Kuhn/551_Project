@@ -34,18 +34,13 @@ reg [10:0] del;
 ///////////////////////////////////
 reset_synch iRST(.clk(clk),.RST_n(RST_n),.rst_n(rst_n));
 
-////////////////////////////////
-// Instantiate A2D Interface //
-//////////////////////////////
-A2D_intf iA2D(.clk(clk),.rst_n(rst_n),.strt_cnv(strt_cnv),.cnv_cmplt(cnv_cmplt),.chnnl(chnnl),.res(res),
-              .a2d_SS_n(A2D_SS_n),.SCLK(A2D_SCLK),.MOSI(A2D_MOSI),.MISO(A2D_MISO));
 			  
 ///////////////////////////////////////////
 // Instantiate Your Slide Pot Interface //
 /////////////////////////////////////////
 slide_intf iSLD(.POT_LP(LP_gain), .POT_B1(B1_gain), .POT_B2(B2_gain), .POT_B3(B3_gain), 
                 .POT_HP(HP_gain), .VOLUME(volume),.MISO(A2D_MISO),.MOSI(A2D_MOSI),
-             .SCLK(SCL),.clk(clk),.rst_n(RST_n),.a2d_SS_n(A2D_SS_n));
+             .SCLK(A2D_SCLK),.clk(clk),.rst_n(RST_n),.a2d_SS_n(A2D_SS_n));
 	
 				
 ///////////////////////////////////////
