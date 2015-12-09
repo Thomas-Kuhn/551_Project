@@ -1,4 +1,4 @@
-module reset_synch(RST_n, clk, rst_n);
+module rst_synch(RST_n, clk, rst_n);
 
 output reg rst_n;
 input RST_n, clk;
