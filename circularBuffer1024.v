@@ -11,11 +11,13 @@ reg [10:0] system_counter;
 reg [9:0] wrtPointer, rdPointer;
 reg enable_write;
 reg wrt_initiated;
+reg need_wrt;
 
 dualPort1024x16 buffer(.clk(clk),.we(enable_write),.waddr(wrtPointer),.raddr(rdPointer),.wdata(new_smpl),.rdata(smpl_out));
 
 
 always @(posedge clk, negedge rst_n) begin
+   
    if (!rst_n) begin
       enable_write <= 1'b0;
       sequencing <= 1'b0;
@@ -24,11 +26,13 @@ always @(posedge clk, negedge rst_n) begin
       wrtPointer <= 10'h000;
       rdPointer <= 10'h000;
    end else if (system_counter == 11'b11111111111) begin
-      if (wrt_smpl) begin 
+      need_wrt <= need_wrt || wrt_smpl;
+      if (need_wrt) begin 
          wrt_initiated <= 1'b1;
          enable_write <= 1'b1;
          wrtPointer <= wrtPointer + 1'b1;
          samples_in <= samples_in + 1'b1;
+         need_wrt <= 0;
          if (full_counter < 10'b1111111110)
             full_counter <= full_counter + 1'b1;
       end else enable_write <= 1'b0;
@@ -40,6 +44,7 @@ always @(posedge clk, negedge rst_n) begin
                rdPointer <= rdPointer + 1'b1;
                sequencing <= 1'b1;
                samples_in <= samples_in - 1'b1;
+               
             end else sequencing <= 1'b0;
          end
          if (samples_in == 11'h000) begin
@@ -50,12 +55,17 @@ always @(posedge clk, negedge rst_n) begin
    end
 end
 
+//system clock counter
 always @(posedge clk, negedge rst_n) begin
-   if (!rst_n) 
+   if (!rst_n) begin
       system_counter <= 11'h000;
-   else 
+      samples_in <= 0;
+   end else begin
       system_counter <= system_counter + 1'b1;
-      
+      if (need_wrt) begin
+         if (!wrt_initiated) samples_in <= samples_in + 1;
+      end
+   end
 end
 
 

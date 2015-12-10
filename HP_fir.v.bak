@@ -13,7 +13,7 @@ reg state, next_state;//variables for state machines
 
 
 //intantiate the ROM
-ROM_HP(.clk(clk), .addr(addr), .dout(coef));
+ROM_HP hp(.clk(clk), .addr(addr), .dout(coef));
 
 //the answers that we are outputting
 assign filtered_L = ans_L[30:15];

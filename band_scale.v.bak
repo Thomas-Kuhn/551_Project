@@ -1,16 +1,16 @@
 module band_scale(POT, audio, scaled);
 
-input 	[23:0]POT;
+input 	[11:0]POT;
 input	signed [15:0]audio;
 output 	reg signed [15:0]scaled;	//should this be of type REG...?
-	//stores value of the squared potentiometer
+wire 	[23:0]POT_squared;	//stores value of the squared potentiometer
 wire	[12:0]trunc_sq_POT;	
 wire	signed [28:0]scaled_audio;
 wire	signed [3:0] sat;
 //POT^2, and then only use 12 MSB and append a 0 in the MSB.
+assign POT_squared = POT * POT;
 
-
-assign trunc_sq_POT = {1'b0,POT[23:12]};
+assign trunc_sq_POT = {1'b0,POT_squared[23:12]};
 
 //multiply truncated squared pot value with the audiosignal
 assign scaled_audio = trunc_sq_POT * audio;

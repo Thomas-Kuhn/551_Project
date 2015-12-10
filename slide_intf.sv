@@ -6,7 +6,8 @@ output reg [11:0] POT_LP, POT_B1, POT_B2, POT_B3, POT_HP, VOLUME;
 output reg SCLK, MOSI, a2d_SS_n;
 
 //intermediate signals
-wire [11:0] res; //shifted data received from Spi_mstr
+wire [15:0] res; //shifted data received from Spi_mstr
+wire [11:0] res_POT;
 reg strt_cnv;//Begin the conversion
 reg [2:0]chnnl; //Channel used for the SPI_mstr
 reg en_lp,en_b1,en_b2,en_b3,en_hp,en_vol; //enables for the POTS
@@ -21,35 +22,36 @@ A2D_intf a2dint(.clk(clk),.rst_n(rst_n),.strt_cnv(strt_cnv),
 typedef enum reg{RESET,CONV}state_t;
 state_t state,nxt_state;
 
+assign res_POT = res[11:0];
 //Enable Flops for each POT
 always@(posedge clk) begin
 if(en_lp)
-	POT_LP <= res;
+	POT_LP <= res_POT;
 end
 
 always@(posedge clk) begin
 if(en_b1)
-	POT_B1 <= res;
+	POT_B1 <= res_POT;
 end
 
 always@(posedge clk) begin
 if(en_b2)
-	POT_B2 <= res;
+	POT_B2 <= res_POT;
 end
 
 always@(posedge clk) begin
 if(en_b3)
-	POT_B3 <= res;
+	POT_B3 <= res_POT;
 end
 
 always@(posedge clk) begin
 if(en_hp)
-	POT_HP <= res;
+	POT_HP <= res_POT;
 end
 
 always@(posedge clk) begin
 if(en_vol)
-	VOLUME <= res;
+	VOLUME <= res_POT;
 end
 
 //state flipflop

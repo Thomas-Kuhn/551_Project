@@ -32,7 +32,7 @@ reg [10:0] del;
 /////////////////////////////////////
 // Instantiate Reset synchronizer //
 ///////////////////////////////////
-reset_synch iRST(.clk(clk),.RST_n(RST_n),.rst_n(rst_n));
+rst_synch iRST(.clk(clk),.RST_n(RST_n),.rst_n(rst_n));
 
 			  
 ///////////////////////////////////////////

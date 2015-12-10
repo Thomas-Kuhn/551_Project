@@ -36,7 +36,7 @@ always @ (posedge clk) begin
       //make new calculations and increment our address
       ans_L <= ans_L + coef * lft_in;
       ans_R <= ans_R + coef * rht_in;
-      addr = (addr + 1) % 10'h3fd;
+      addr <= (addr + 1) % 10'h3fd;
    end
 
    
