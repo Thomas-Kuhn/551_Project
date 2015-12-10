@@ -42,10 +42,8 @@ assign summed_audio_R = pot_filtered_lp_R + pot_filtered_b1_R + pot_filtered_b2_
 band_scale vol_L(.POT(POT_VOL), .audio(summed_audio_L), .scaled(lft_out));
 band_scale vol_R(.POT(POT_VOL), .audio(summed_audio_R), .scaled(rht_out));
 
-<<<<<<< HEAD
 assign AMP_ON = low_seq_L && low_seq_R && high_seq_L && high_seq_R;
-=======
-assign AMP_ON = low_seq_L & low_seq_R & high_seq_L & high_seq_R;
->>>>>>> 85b3aa49f2e9cc2ade2e61284315ca8b0f4310f1
+
+
 
 endmodule
