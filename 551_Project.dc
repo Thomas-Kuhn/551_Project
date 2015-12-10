@@ -1,0 +1,67 @@
+####### Read In the verilog files first########
+
+read_file -format sverilog {	./B1_fir.v\
+				./B2_fir.v\
+				./B3_fir.v\
+				./band_scale.v\
+				./circularBuffer1024.v\
+				./circularBuffer1536.v\
+				./CS4272.v\
+				./dualPort1024x16.v\
+				./dualPort1536x16.v\
+				./HP_fir.v\
+				./LP_fir.v\
+				./ROM_B1.v\
+				./ROM_B2.v\
+				./ROM_B3.v\
+				./ROM_HP.v\
+				./ROM_LP.v\
+				./rst_synch.v\
+				./sqrt.v
+				./A2D_intf.sv\
+				./ADC128S.sv\
+				./codec_intf.sv\
+				./dig_core_intf.sv\
+				./Equalizer.sv\
+				./EqualizerLoopBack.sv\
+				./slide_intf.sv\
+				./SPI_ADC128S.sv\
+				./SPI_mstr.sv  } 
+
+######### Set top level design############
+set current_design Equalizer
+set_dont_touch [find design dualPort*]
+set_dont_touch [find design ROM_*]
+######### Constrain and assign clock#######
+create_clock -name "clk" -period 3.4 -waveform {0 1} clk
+set_dont_touch_network [find port clk]
+######### Constrain input timings & Drive#######
+set prim_inputs [remove_from_collection [all_inputs] [find port clk]]
+set_input_delay -clock clk .75 $prim_inputs
+set_driving_cell -lib_cell ND2D2BWP -from_pin A1 -library tcbn401pbwptc $prim_inputs
+
+######### Constrain output timing & loads ##########
+set_output_delay -clock clk .75 [all_outputs]
+set_load 0.1 [all_outputs]
+
+######### Set wireload & transition time ##########
+set_wire_load_model -name TSMC32K_Lowk_Conservative -library tcbn401pbwptc
+set_max_transition 0.15 [current_design]
+######### First compile ##############
+compile -map_effort high
+
+######### Set Clock Uncertainty ###########
+set_clock_uncertainty 0.1 clk
+set_fix_hold clk
+######### Compile the design ###########
+compile -map_effort high
+
+######### Generate timing & Area Reports ###########
+report_timing -delay max > max_delay.txt
+report_timing -delay min > min_delay.txt
+report_area > project_area.txt
+
+######### Write out resulting synthesized netlist #############
+write -format verilog Equalizer -output Equalizer.vg
+
+
