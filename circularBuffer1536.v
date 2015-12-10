@@ -24,15 +24,15 @@ always @(posedge clk, negedge rst_n) begin
       full_counter <= 11'h000;
       wrtPointer <= 11'h000;
       rdPointer <= 11'h000;
-      need_wrt = 0;
+      need_wrt <= 0;
    end else if (system_counter == 10'b1111111111) begin
-      need_wrt = need_wrt || wrt_smpl;
+      need_wrt <= need_wrt || wrt_smpl;
       if (need_wrt) begin //write new sample to the buffer when wrt_smpl is high
         
          wrt_initiated <= 1'b1;
          enable_write <= 1'b1;
          wrtPointer <= wrtPointer + 1'b1;
-         if (wrtPointer == 11'h600) wrtPointer = 11'h000; //prevents pointer overflowing bounds of buffer
+         if (wrtPointer == 11'h600) wrtPointer <= 11'h000; //prevents pointer overflowing bounds of buffer
          
          if (full_counter < 11'h5FC)
             full_counter <= full_counter + 1'b1;
@@ -61,11 +61,11 @@ end
 always @(posedge clk, negedge rst_n) begin
    if (!rst_n) begin
       system_counter <= 11'h000;
-      samples_in = 0;
+      samples_in <= 0;
    end else begin
       system_counter <= system_counter + 1'b1;
       if (need_wrt) begin
-         if (!wrt_initiated) samples_in = samples_in + 1;
+         if (!wrt_initiated) samples_in <= samples_in + 1;
       end
    end
 end

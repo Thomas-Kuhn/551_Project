@@ -61,7 +61,7 @@ end
 always @(posedge clk, negedge rst_n) begin
    if (!rst_n) begin
       system_counter <= 11'h000;
-      samles_in = 0;
+      samples_in = 0;
    end else begin
       system_counter <= system_counter + 1'b1;
       if (need_wrt) begin
