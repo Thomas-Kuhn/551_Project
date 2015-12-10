@@ -53,12 +53,12 @@ wire signed [15:0] aout_rht;
   clk = 0;
   #1000
   RST_n = 1;
+  end
   always@(posedge clk) begin
       
       $fwrite(fptr, "%d,%d\n", aout_lft, aout_rht);
   end
-  end
-  
+
   always
     #10 clk = ~clk;
 

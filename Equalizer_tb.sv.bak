@@ -54,6 +54,7 @@ wire signed [15:0] aout_rht;
   #1000
   RST_n = 1;
   always@(posedge clk) begin
+      
       $fwrite(fptr, "%d,%d\n", aout_lft, aout_rht);
   end
   end
