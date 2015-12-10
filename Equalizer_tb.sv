@@ -15,7 +15,7 @@ reg  LRCLK; 			// Left/Right clock to CODEC
 reg  SDin;			// forms serial data in to CODEC
 reg SDout;			// from CODEC SDout pin (serial data in to core)
 reg AMP_ON;			// signal to turn amp on	
-
+integer fptr;
            // master clock to the chip
 reg RSTn;            // chip reset
 
@@ -24,8 +24,8 @@ reg RSTn;            // chip reset
           // serial data output line
            // serial data input line
 
-wire [15:0] aout_lft; // flopped left audio on the input line
-wire [15:0] aout_rht; 
+wire signed [15:0] aout_lft; // flopped left audio on the input line
+wire signed [15:0] aout_rht; 
   
   //////////////////////
   // Instantiate DUT //
@@ -48,10 +48,15 @@ wire [15:0] aout_rht;
                .MISO(A2D_MISO),.MOSI(A2D_MOSI));
 				
   initial begin
+  fptr = $fopen("audio_out.csv", "w");
   RST_n = 0;
   clk = 0;
-#1000
-RST_n = 1;
+  #1000
+  RST_n = 1;
+  always@(posedge clk) begin
+      
+      $fwrite(fptr, "%d,%d\n", aout_lft, aout_rht);
+  end
   end
   
   always
