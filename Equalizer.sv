@@ -27,12 +27,13 @@ wire [2:0] chnnl;
 wire [11:0] res;
 wire [11:0] LP_gain,B1_gain,B2_gain,B3_gain,HP_gain,volume;
 
+
 reg [10:0] del;
 
 /////////////////////////////////////
 // Instantiate Reset synchronizer //
 ///////////////////////////////////
-rst_synch iRST(.clk(clk),.RST_n(RST_n),.rst_n(rst_n));
+//rst_synch iRST(.clk(clk),.RST_n(RST_n),.rst_n(rst_n));
 
 			  
 ///////////////////////////////////////////
@@ -46,15 +47,16 @@ slide_intf iSLD(.POT_LP(LP_gain), .POT_B1(B1_gain), .POT_B2(B2_gain), .POT_B3(B3
 ///////////////////////////////////////
 // Instantiate Your CODEC Interface //
 /////////////////////////////////////
-codec_intf iCS(.clk(clk), .rst_n(rst_n), .lft_in(lft_in), .rht_in(rht_in), .lft_out(lft_out), .rht_out(rht_out),
-                  .valid(valid), .RSTn(RSTn), .MCLK(MCLK), .SCLK(SCL), .LRCLK(LRCLK), .SDin(SDin), .SDout(SDout));
-
+//codec_intf iCS(.clk(clk), .rst_n(rst_n), .lft_in(lft_in), .rht_in(rht_in), .lft_out(lft_out), .rht_out(rht_out),
+//                  .valid(valid), .RSTn(RSTn), .MCLK(MCLK), .SCLK(SCL), .LRCLK(LRCLK), .SDin(SDin), .SDout(SDout));
+//
 ///////////////////////////////////
 // Instantiate Equalizer Engine //
 /////////////////////////////////
 dig_core_intf iDig(.clk(clk), .rst_n(rst_n), .lft_in(lft_in), .rht_in(rht_in), .lft_out(lft_out), .rht_out(rht_out), 
 		.valid(valid), .POT_B1(B1_gain),.POT_B2(B2_gain), .POT_B3(B3_gain), .POT_HP(HP_gain), .POT_LP(LP_gain),
 		 .POT_VOL(volume), .AMP_ON(AMP_ON));
+EqualizerLoopBack iLoop(.clk(clk), .RST_n(RST_n), .SDin(SDin), .SDout(SDout), .RSTn(RSTn), .SCL(SCL), .MCLK(MCLK), .LRCLK(LRCLK));
 
 
 ////////////////////////////////////////////////////////////

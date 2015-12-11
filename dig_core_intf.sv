@@ -6,7 +6,7 @@ input [11:0]POT_B1, POT_B2, POT_B3, POT_HP, POT_LP, POT_VOL;
 output reg[15:0]lft_out, rht_out;
 output reg AMP_ON;
 
-reg [23:0] POT_B1sq, POT_B2sq, POT_B3sq, POT_LPsq, POT_HPsq, POT_VOLsq;
+reg [23:0] POT_B1sq, POT_B2sq, POT_B3sq, POT_LPsq, POT_HPsq, POT_VOLin;
 wire signed [15:0]rd_out_low_L, rd_out_low_R, rd_out_high_L, rd_out_high_R;
 wire low_seq_L, low_seq_R, high_seq_L, high_seq_R;
 wire signed [15:0]filtered_lp_L, filtered_lp_R,  filtered_b1_L, filtered_b1_R, filtered_b2_L, filtered_b2_R, filtered_b3_L, filtered_b3_R,  filtered_hp_L, filtered_hp_R;
@@ -29,7 +29,7 @@ assign POT_B2sq = POT_B2 * POT_B2;
 assign POT_B3sq = POT_B3 * POT_B3;
 assign POT_HPsq = POT_HP * POT_HP;
 assign POT_LPsq = POT_LP * POT_LP;
-assign POT_VOLsq = POT_VOL * POT_VOL;
+assign POT_VOLin = {POT_VOL, 12'h000} ;
 band_scale lp_L(.POT(POT_LPsq), .audio(filtered_lp_L), .scaled(pot_filtered_lp_L));
 band_scale lp_R(.POT(POT_LPsq), .audio(filtered_lp_R), .scaled(pot_filtered_lp_R));
 band_scale b1_L(.POT(POT_B1sq), .audio(filtered_b1_L), .scaled(pot_filtered_b1_L));
@@ -45,8 +45,8 @@ band_scale hp_R(.POT(POT_HPsq), .audio(filtered_hp_R), .scaled(pot_filtered_hp_R
 assign summed_audio_L = pot_filtered_lp_L + pot_filtered_b1_L + pot_filtered_b2_L + pot_filtered_b3_L + pot_filtered_hp_L;
 assign summed_audio_R = pot_filtered_lp_R + pot_filtered_b1_R + pot_filtered_b2_R + pot_filtered_b3_R + pot_filtered_hp_R;
 
-band_scale vol_L(.POT(POT_VOL), .audio(summed_audio_L), .scaled(lft_out));
-band_scale vol_R(.POT(POT_VOL), .audio(summed_audio_R), .scaled(rht_out));
+band_scale vol_L(.POT(POT_VOLin), .audio(summed_audio_L), .scaled(lft_out));
+band_scale vol_R(.POT(POT_VOLin), .audio(summed_audio_R), .scaled(rht_out));
 
 assign AMP_ON = low_seq_L || low_seq_R || high_seq_L || high_seq_R;
 

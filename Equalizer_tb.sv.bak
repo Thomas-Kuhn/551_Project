@@ -18,7 +18,7 @@ reg AMP_ON;			// signal to turn amp on
 integer fptr;
            // master clock to the chip
 reg RSTn;            // chip reset
-
+reg [11:0]i;
            // serial data clock
          // left-right clock - indicates which channel is on
           // serial data output line
@@ -53,12 +53,16 @@ wire signed [15:0] aout_rht;
   clk = 0;
   #1000
   RST_n = 1;
-  always@(posedge clk) begin
-      
-      $fwrite(fptr, "%d,%d\n", aout_lft, aout_rht);
-  end
-  end
   
+
+  for(i = 12'h000; i < +12'h800; i=i+1'b1) begin
+
+      @(posedge LRCLK);
+      $fwrite(fptr, "%d,%d\n", aout_lft, aout_rht);
+      
+  end
+  $strobe("done");
+  end
   always
     #10 clk = ~clk;
 

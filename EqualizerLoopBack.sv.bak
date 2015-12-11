@@ -10,7 +10,7 @@ reg sel;
 wire [15:0] rht_in, lft_in;
 wire valid;
 output reg SDin, LRCLK, SCL, MCLK, RSTn;
-rst_synch rs(.RST_n(RST_n), .clk(clk), .rst_n(rst_n));
+reset_synch rs(.RST_n(RST_n), .clk(clk), .rst_n(rst_n));
 
 codec_intf ci(.clk(clk), .rst_n(rst_n), .SDout(SDout), .lft_out(lft_out), .rht_out(rht_out),
 		  .SDin(SDin), .valid(valid), .lft_in(lft_in), .rht_in(rht_in), .LRCLK(LRCLK),.SCLK(SCL),.MCLK(MCLK),.RSTn(RSTn));

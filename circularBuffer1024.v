@@ -27,7 +27,7 @@ always @(posedge clk, negedge rst_n) begin
       rdPointer <= 10'h000;
    end else if (system_counter == 11'b11111111111) begin
       need_wrt <= need_wrt || wrt_smpl;
-      if (need_wrt) begin 
+      if (wrt_smpl) begin 
          wrt_initiated <= 1'b1;
          enable_write <= 1'b1;
          wrtPointer <= wrtPointer + 1'b1;
