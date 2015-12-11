@@ -1,7 +1,5 @@
 module HP_fir(clk, sequencing, rht_in, lft_in, filtered_L, filtered_R);
 
-
-
 input clk, sequencing;
 input signed [15:0] rht_in, lft_in;
 output [15:0] filtered_L, filtered_R;
@@ -18,7 +16,6 @@ ROM_HP hp(.clk(clk), .addr(addr), .dout(coef));
 //the answers that we are outputting
 assign filtered_L = ans_L[30:15];
 assign filtered_R = ans_R[30:15];
-
 
 //main logic
 always @ (posedge clk) begin
@@ -38,9 +35,6 @@ always @ (posedge clk) begin
       ans_R <= ans_R + coef * rht_in;
       addr <= (addr + 1) % 10'h3fd;
    end
-
-   
-
 end
 
 
@@ -52,7 +46,6 @@ always @(*) begin
    if (sequencing) begin
       next_state = 1;
    end 
-
 end
 
 
@@ -60,8 +53,4 @@ end
 always @(posedge clk) begin
    state <= next_state;
 end
-
-
-
-
 endmodule

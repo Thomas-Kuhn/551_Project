@@ -46,13 +46,10 @@ end
 
 //the state logic is entirely dependant on sequencing, but using the always @(*) is good practice
 always @(*) begin
-
    next_state = 0;
-
    if (sequencing) begin
       next_state = 1;
-   end 
-
+   end
 end
 
 
@@ -60,8 +57,4 @@ end
 always @(posedge clk) begin
    state <= next_state;
 end
-
-
-
-
 endmodule

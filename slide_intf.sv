@@ -79,13 +79,9 @@ always @(posedge clk or negedge rst_n)begin
 		chnnl <= 3'b000;
 	end else if(cnv_cmplt) begin
 		chnnl <= chnnl + 1;
-		if(chnnl == 3'b101) chnnl <= 3'b111; 
+		if(chnnl == 3'b100) chnnl <= 3'b111; 
 	end	
 end
-
-	
-
-
 //state trans logic
 always_comb
 begin
@@ -102,8 +98,7 @@ case(state)
 		if(cnv_cmplt) begin
 			nxt_state = RESET;
 		end else
-			nxt_state = CONV;
-		
+			nxt_state = CONV;		
 	end
 endcase
 

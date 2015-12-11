@@ -114,7 +114,5 @@ begin
     aout_rht  <=  16'h0000;
   else if(flop_rht)
     aout_rht  <=  inshiftreg;
-end
-
-    
+end    
 endmodule

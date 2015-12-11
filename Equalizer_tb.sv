@@ -53,9 +53,9 @@ wire signed [15:0] aout_rht;
   clk = 0;
   #1000
   RST_n = 1;
-  
+  @(posedge AMP_ON);
 
-  for(i = 12'h000; i < +12'h800; i=i+1'b1) begin
+  for(i = 12'h000; i < 12'h800; i=i+1'b1) begin
 
       @(posedge LRCLK);
       $fwrite(fptr, "%d,%d\n", aout_lft, aout_rht);
