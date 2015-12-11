@@ -100,7 +100,7 @@ end
 always @(posedge clk or negedge rst_n) begin
 	if(!rst_n)
 		lft_in <= 16'h0000;
-	else if(LRCLK_rising)
+	else if(LRCLK_falling)
 		lft_in <= shft_reg;
 end
 
